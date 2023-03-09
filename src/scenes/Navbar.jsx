@@ -20,7 +20,7 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
 const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
   const isAboveSmallScreens = useMediaQuery("(min-width: 768px)");
-  const navbarBackground = isTopOfPage ? "" : "bg-red"
+  const navbarBackground = isTopOfPage ? "" : "bg-blue"
   return (
     <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-6`}>
       <div className="flex items-center justify-between mx-auto w-5/6">
@@ -57,7 +57,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
           </div>
         ) : (
           <button 
-           className="rounded-full bg-red p-2"
+           className="rounded-full bg-blue p-2"
            onClick={() => {setIsMenuToggled(!isMenuToggled)}}
            >
             <img src="../assets/menu-icon.svg" alt="menu-icon" />
@@ -67,7 +67,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
         {/* Mobile Menu Pop Up */}
         {/* If it is not above small screens, and if the menu is toggled, rendered the content within the div aka the mobile menu pop up to the right */}
         {!isAboveSmallScreens && isMenuToggled && (
-            <div className="fixed right-0 bottom-0 h-full bg-blue w-[300px]">
+            <div className="fixed right-0 bottom-0 h-full bg-red w-[300px]">
                 {/* Close Icon Here */}
                 <div className="flex justify-end p-12">
                     <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
