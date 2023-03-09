@@ -32,6 +32,7 @@ const Landing = ({setSelectedPage}) => {
             src="assets/profile-image.png"
           />
         )}
+      </div>
 
         {/* Main Section Here */}
         <div className="z-30 basis-2/5 mt-12 md:mt-32">
@@ -55,9 +56,12 @@ const Landing = ({setSelectedPage}) => {
                     Cristian {""}
                     <span className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]">Vargas</span>
                 </p>
+
+                <p className="mt-10 mb-7 text-sm text-center md:text-start">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
             </motion.div>
         </div>
-      </div>
     </section>
   )
 }
