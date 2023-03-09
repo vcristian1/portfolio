@@ -32,6 +32,31 @@ const Landing = ({setSelectedPage}) => {
             src="assets/profile-image.png"
           />
         )}
+
+        {/* Main Section Here */}
+        <div className="z-30 basis-2/5 mt-12 md:mt-32">
+            {/* Headings Here */}
+            {/* motion gives us ready to use animations */}
+            {/* whileInView represents when you scroll to the section where the div is seen */}
+            {/* Viewport is relevant to whileInView, which means the animation will run when you get to this place in the page and it will run only once.  */}
+            {/* It also requires the div to show 50% of the div. */}
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount:0.5}}
+              transition={{ duration: 0.5}}
+              variants={{
+                // Will start -50 from where it originally is located
+                hidden: { opacity: 0, x: -50 },
+                visible: { opacity: 1, x: 0}
+              }}
+            >
+                <p className="text-6xl font-playfair z-10 text-center md:text-start">
+                    Cristian {""}
+                    <span className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]">Vargas</span>
+                </p>
+            </motion.div>
+        </div>
       </div>
     </section>
   )
