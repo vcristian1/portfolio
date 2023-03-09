@@ -56,7 +56,9 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
             />
           </div>
         ) : (
-          <div></div>
+          <button className="rounded-full">
+            <img src="../assets/menu-icon.svg" alt="menu-icon" />
+          </button>
         )}
       </div>
     </nav>
