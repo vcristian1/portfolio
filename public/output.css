@@ -709,6 +709,11 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .font-opensans{
   font-family: Open Sans, sans-serif;
 }
@@ -824,7 +829,19 @@ body,
 }
 
 @media (min-width: 1060px){
+  .md\:flex{
+    display: flex;
+  }
+
   .md\:h-full{
     height: 100%;
+  }
+
+  .md\:items-center{
+    align-items: center;
+  }
+
+  .md\:justify-between{
+    justify-content: space-between;
   }
 }
