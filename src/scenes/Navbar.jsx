@@ -1,21 +1,46 @@
-import React from 'react'
-import { useState,  } from 'react'
-// Allows the user to navigate to other areas of the page smoothly
-import AnchorLink from 'react-anchor-link-smooth-scroll';
+import { useState } from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../hooks/useMediaQuery";
 
-export const Navbar = ({ selectedPage, setSelectedPage }) => {
+const Link = ({ page, selectedPage, setSelectedPage }) => {
+  const lowerCasePage = page.toLowerCase();
+  return (
+    <AnchorLink
+      className={`${
+        selectedPage === lowerCasePage ? "text-yellow" : ""
+      } hover:text-yellow transition duration-500`}
+      href={`#${lowerCasePage}`}
+      onClick={() => setSelectedPage(lowerCasePage)}
+    >
+      {page}
+    </AnchorLink>
+  );
+};
+
+const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
-  // This will use the media query we created isAboveSmallScreens, and it will set the min width to be 768px.
-  // Determines whether the current broswer size min width is less than 768 or above 768
-  const isAboveSmallScreens = useMediaQuery("(min-width-768px)");
+  const isAboveSmallScreens = useMediaQuery("(min-width: 768px)");
 
-    return (
-    // Z index set to 40 so it popus up above other items
+  return (
     <nav className={`z-40 w-full fixed top-0 py-6`}>
-        <div className='flex items-center justify-between mx-auto w-5/6'>
+      <div className="flex items-center justify-between mx-auto w-5/6">
+        <h4 className="font-playfair text-3xl font-bold">JE</h4>
 
-        </div>
+        {/* DESKTOP NAV */}
+        {isAboveSmallScreens ? (
+          <div className="flex justify-between gap-16 font-opensans text-sm font-semibold">
+            <Link
+              page="Home"
+              selectedPage={selectedPage}
+              setSelectedPage={setSelectedPage}
+            />
+          </div>
+        ) : (
+          <div></div>
+        )}
+      </div>
     </nav>
-  )
-}
+  );
+};
+
+export default Navbar;

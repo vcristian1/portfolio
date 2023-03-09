@@ -1,6 +1,6 @@
 import { useState } from "react";
 import useMediaQuery from "./hooks/useMediaQuery";
-import { Navbar } from "./scenes/Navbar";
+import Navbar from "./scenes/Navbar";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -14,6 +14,7 @@ function App() {
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
       />
+      
     </div>
   );
 }
