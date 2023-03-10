@@ -85,7 +85,7 @@ const Landing = ({setSelectedPage}) => {
                  Contact Me
                 </AnchorLink>
                 <AnchorLink
-                 className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
+                 className="rounded-r-sm bg-gradient-blue py-0.5 pr-0.5"
                  onClick={() => setSelectedPage("contact")}
                  href="#contact"
                 >
