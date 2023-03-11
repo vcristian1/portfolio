@@ -22,6 +22,55 @@ const MySkills = () => {
                 <p className="font-playfair fontt-semibold text-4xl mb-5">
                     MY <span className="text-lightpurple">SKILLS</span>
                 </p>
+                <LineGradient width="w-1/3" />
+                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+            </motion.div>
+
+            <div className="mt-16 md:mt-0">
+            {isAboveMediumScreens ? (
+            <div
+                className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10 
+                before:w-full before:max-w-[400px] before:h-full before:border-2 before:border-blue before:z-[-1]"
+             >
+                <img
+                alt="skills"
+                className="z-10"
+                src="assets/skills-image.png"
+                />
+            </div>
+            ) : (
+            <img
+                alt="skills"
+                className="z-10"
+                src="assets/skills-image.png"
+            />
+            )}
+            </div>
+        </div>
+
+        {/* SKILLS HERE */}
+        <div className="md:flex md:justify-between mt-16 gap-32">
+            {/* EXPERIENCE HERE */}
+            <motion.div
+            className="md:w-1/3 mt-10"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ delay: 0.4, duration: 0.5 }}
+            variants={{
+                // Set to 50 and y so it comes from the bottom instead of -50.
+                hidden: { opacity: 0, y: 50 },
+                visible: { opacity: 1, y: 0 },
+            }}
+            >
+                <div className="relative h-32">
+                    <div className="z-10">
+                        <p className="font-playfair font-semibold text-5xl">01</p>
+                        <p className="font-playfair font-semibold text-3xl mt-3">Experience</p>
+                    </div>
+                    <div className="w-1/2 md:w-3/4 h-32 bg-bue absolute right-0 top-0 z-[-1]" />
+                </div>
+                <p className="mt-5">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
             </motion.div>
         </div>
     </section>
