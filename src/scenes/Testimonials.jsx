@@ -3,7 +3,7 @@ import LineGradient from "../components/LineGradient";
 
 export const Testimonials = () => {
   return (
-    <section id="testimonials" className="pt-32 pb-16 justify-center">
+    <section id="testimonials" className="pt-24 pb-16 justify-center">
       {/* HEADING */}
       <motion.div
         className="md:w-1/3 text-center md:text-center lg:text-center"
@@ -16,19 +16,19 @@ export const Testimonials = () => {
           visible: { opacity: 1, x: 0 },
         }}
       >
-        <p className="font-playfair font-semibold text-4xl mb-5 text-purple text-center">
+        <p className="font-playfair font-semibold text-4xl mb-5 text-yellow text-center">
           TESTIMONIALS
         </p>
         <LineGradient width="mx-auto w-2/5" />
         <p className="mt-10 text-center">
-          Hear What People Are Saying About My Work.
+          Read what others are saying about my work.
         </p>
       </motion.div>
 
       <div className="md:flex md:justify-between gap-8">
         <motion.div
-          className="mx-auto relative bg-blue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
+          className="mx-auto relative bg-purple max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+            before:absolute before:top-[-120px] before:-ml-[100px] before:left-1/2 before:content-person1 before:mt-[-40px]"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -40,7 +40,8 @@ export const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.          </p>
+          I would rate Cristian very highly, not only for his knowledge, skills, and perseverance but also for his ability to remain calm and methodical under severe pressure. - Ankit Patel</p>
+          
         </motion.div>
       </div>
     </section>

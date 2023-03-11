@@ -59,7 +59,7 @@ const Landing = ({setSelectedPage}) => {
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-          Im a Javascript Developer specializing in building unique digital experiences primarily using Front-End Technologies and Frameworks such as React, and Next.js. Currently, I focus on building and maintaining dynamic full stack web applications.
+          Javascript Developer specializing in building unique digital experiences primarily using Front-End Technologies and Frameworks such as React, and Next.js. 
           </p>
         </motion.div>
 

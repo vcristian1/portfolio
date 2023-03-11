@@ -1,5 +1,6 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
+import TechnologyIcons from "../components/TechnologyIcons";
 
 // Created the container object to use in the variants attribute of the motion.div containing the 
 // projects so the animations will happen for each children one by one with a 0.2 gap in between 
@@ -70,7 +71,19 @@ export const Projects = () => {
                 <div className="flex justify-center mt-5">
                     <LineGradient width="w-1/3" />
                 </div>
-                <p className="text-center mt-10 mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <motion.div
+                className="flex mt-5 justify-center md:justify-start text-center items-center"
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                transition={{ delay: 0.4, duration: 0.5 }}
+                variants={{
+                 hidden: { opacity: 0, x: -50 },
+                 visible: { opacity: 1, x: 0 },
+                }}
+                >
+                  <TechnologyIcons />
+                </motion.div>
         </motion.div>
 
         {/* PROJECTS HERE */}
@@ -84,7 +97,7 @@ export const Projects = () => {
             >
                 {/* ROW 1 HERE */}
                 <div
-                className="flex justify-center text-center items-center p-10 bg-blue max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+                className="flex justify-center text-center items-center p-10 bg-purple max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
                 >
                     BEAUTIFUL USER INTERFACES
                 </div>
@@ -99,7 +112,7 @@ export const Projects = () => {
                 {/* ROW 2 HERE */}
                 <Project description="Task Management App built using Typescript and Next.js" link="https://next-task-liard.vercel.app/signin" title="Taskify" />
                 <div
-                className="flex justify-center text-center items-center p-10 bg-purple max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+                className="flex justify-center text-center items-center p-10 bg-yellow max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
                 >
                     SMOOTH USER EXPERIENCE
                 </div>

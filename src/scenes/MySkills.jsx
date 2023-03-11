@@ -1,6 +1,7 @@
 import useMediaQuery from "../hooks/useMediaQuery";
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
+import TechnologyIcons from "../components/TechnologyIcons";
 
 const MySkills = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
@@ -23,7 +24,7 @@ const MySkills = () => {
                     MY <span className="text-yellow">SKILLS</span>
                 </p>
                 <LineGradient width="w-1/3" />
-                <p className="mt-10 mb-10">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                <p className="mt-10 mb-10">To sharpen my skills further, I focus on building and maintaining dynamic Full Stack Web Applications.</p>
             </motion.div>
 
             <div className="mt-16 md:mt-0">
@@ -66,11 +67,14 @@ const MySkills = () => {
                 <div className="relative h-32">
                     <div className="z-10">
                         <p className="font-playfair font-semibold text-5xl">01</p>
-                        <p className="font-playfair font-semibold text-3xl mt-3">Experience</p>
+                        <p className="font-playfair font-semibold text-3xl mt-3">Technologies</p>
                     </div>
                     <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
                 </div>
-                <p className="mt-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+                <div className="mt-3 mb-3">
+                    <TechnologyIcons />
+                </div>
+                
             </motion.div>
 
             {/* INNOVATIVE HERE */}
@@ -89,11 +93,11 @@ const MySkills = () => {
                 <div className="relative h-32">
                     <div className="z-10">
                         <p className="font-playfair font-semibold text-5xl">02</p>
-                        <p className="font-playfair font-semibold text-3xl mt-3">Innovative</p>
+                        <p className="font-playfair font-semibold text-3xl mt-3">Soft Skills</p>
                     </div>
                     <div className="w-1/2 md:w-3/4 h-32 bg-purple absolute right-0 top-0 z-[-1]" />
                 </div>
-                <p className="mt-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+                <p className="mt-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
             </motion.div>
 
             {/* IMAGINITIVE HERE */}
@@ -112,11 +116,11 @@ const MySkills = () => {
                 <div className="relative h-32">
                     <div className="z-10">
                         <p className="font-playfair font-semibold text-5xl">03</p>
-                        <p className="font-playfair font-semibold text-3xl mt-3">Imaginitive</p>
+                        <p className="font-playfair font-semibold text-3xl mt-3">Experience</p>
                     </div>
                     <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
+                    <p className="mt-10 mb-10">Marketing Analyst <a className="text-yellow" href="https://www.magnoliacap.com/">@ Magnolia Capital</a></p>
                 </div>
-                <p className="mt-5 mb-10]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
             </motion.div>
         </div>
     </section>
