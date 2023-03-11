@@ -67,7 +67,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
         {/* Mobile Menu Pop Up */}
         {/* If it is not above small screens, and if the menu is toggled, rendered the content within the div aka the mobile menu pop up to the right */}
         {!isAboveSmallScreens && isMenuToggled && (
-            <div className="fixed right-0 bottom-0 h-full bg-blue w-[300px]">
+            <div className="fixed right-0 bottom-0 h-full bg-purple w-[300px]">
                 {/* Close Icon Here */}
                 <div className="flex justify-end p-12">
                     <button onClick={() => setIsMenuToggled(!isMenuToggled)}>

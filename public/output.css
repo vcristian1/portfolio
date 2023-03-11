@@ -822,6 +822,11 @@ video {
   background-color: rgb(253 204 73 / var(--tw-bg-opacity));
 }
 
+.bg-purple{
+  --tw-bg-opacity: 1;
+  background-color: rgb(106 0 244 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-rainblue{
   background-image: linear-gradient(90deg, #24CBFF 14.53%, #FC59FF 69.36%, #6a00f4 117.73%);
 }
