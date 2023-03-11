@@ -734,6 +734,10 @@ video {
   margin-top: 1.5rem;
 }
 
+.mt-1{
+  margin-top: 0.25rem;
+}
+
 .flex{
   display: flex;
 }
@@ -812,6 +816,10 @@ video {
 
 .basis-3\/5{
   flex-basis: 60%;
+}
+
+.basis-1\/2{
+  flex-basis: 50%;
 }
 
 .resize{
@@ -941,6 +949,10 @@ video {
 
 .p-2{
   padding: 0.5rem;
+}
+
+.p-3{
+  padding: 0.75rem;
 }
 
 .px-10{
@@ -1144,6 +1156,19 @@ video {
 
 .text-grey{
   color: ededed;
+}
+
+.text-red{
+  --tw-text-opacity: 1;
+  color: rgb(220 68 146 / var(--tw-text-opacity));
+}
+
+.placeholder-opaque-black::-webkit-input-placeholder{
+  color: rgba(0,0,0,0.35);
+}
+
+.placeholder-opaque-black::placeholder{
+  color: rgba(0,0,0,0.35);
 }
 
 .opacity-0{
