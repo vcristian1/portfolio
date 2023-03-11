@@ -713,6 +713,10 @@ video {
   margin-top: 1rem;
 }
 
+.mt-48{
+  margin-top: 12rem;
+}
+
 .flex{
   display: flex;
 }
@@ -739,6 +743,10 @@ video {
 
 .h-32{
   height: 8rem;
+}
+
+.h-\[350px\]{
+  height: 350px;
 }
 
 .max-h-\[400px\]{
@@ -839,6 +847,10 @@ video {
 
 .gap-32{
   gap: 8rem;
+}
+
+.gap-8{
+  gap: 2rem;
 }
 
 .rounded-full{
@@ -1036,6 +1048,11 @@ video {
   line-height: 1;
 }
 
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -1140,9 +1157,24 @@ body,
   top: -2.5rem;
 }
 
+.before\:left-1\/2::before{
+  content: var(--tw-content);
+  left: 50%;
+}
+
+.before\:top-\[-120px\]::before{
+  content: var(--tw-content);
+  top: -120px;
+}
+
 .before\:z-\[-1\]::before{
   content: var(--tw-content);
   z-index: -1;
+}
+
+.before\:-ml-\[110px\]::before{
+  content: var(--tw-content);
+  margin-left: -110px;
 }
 
 .before\:h-6::before{
@@ -1196,6 +1228,11 @@ body,
   content: var(--tw-content);
   --tw-border-opacity: 1;
   border-color: rgb(253 204 73 / var(--tw-border-opacity));
+}
+
+.before\:content-person1::before{
+  --tw-content: url('./assets/person-1.png');
+  content: var(--tw-content);
 }
 
 .hover\:bg-blue:hover{
@@ -1332,6 +1369,10 @@ body,
 
   .md\:text-left{
     text-align: left;
+  }
+
+  .md\:text-center{
+    text-align: center;
   }
 
   .md\:text-start{

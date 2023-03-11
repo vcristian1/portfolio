@@ -70,7 +70,7 @@ const MySkills = () => {
                     </div>
                     <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
                 </div>
-                <p className="mt-5 mb-5">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                <p className="mt-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
             </motion.div>
 
             {/* INNOVATIVE HERE */}
@@ -93,7 +93,7 @@ const MySkills = () => {
                     </div>
                     <div className="w-1/2 md:w-3/4 h-32 bg-purple absolute right-0 top-0 z-[-1]" />
                 </div>
-                <p className="mt-5 mb-5">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                <p className="mt-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
             </motion.div>
 
             {/* IMAGINITIVE HERE */}
@@ -116,7 +116,7 @@ const MySkills = () => {
                     </div>
                     <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
                 </div>
-                <p className="mt-5 mb-10]">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                <p className="mt-5 mb-10]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
             </motion.div>
         </div>
     </section>

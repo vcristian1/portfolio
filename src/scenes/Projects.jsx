@@ -64,7 +64,7 @@ export const Projects = () => {
                 <div className="flex justify-center mt-5">
                     <LineGradient width="w-1/3" />
                 </div>
-                <p className="text-center mt-10 mb-10">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                <p className="text-center mt-10 mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </motion.div>
 
         {/* PROJECTS HERE */}
