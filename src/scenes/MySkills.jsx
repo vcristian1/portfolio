@@ -1,7 +1,7 @@
 import useMediaQuery from "../hooks/useMediaQuery";
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
-import TechnologyIcons from "../components/TechnologyIcons";
+import TechnologiesIcons from "../components/TechnologiesIcons";
 
 const MySkills = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
@@ -67,12 +67,12 @@ const MySkills = () => {
                 <div className="relative h-32">
                     <div className="z-10">
                         <p className="font-playfair font-semibold text-5xl">01</p>
-                        <p className="font-playfair font-semibold text-3xl mt-3">Technologies</p>
+                        <p className="font-playfair font-semibold text-3xl mt-3">Languages</p>
                     </div>
                     <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
                 </div>
-                <div className="mt-3 mb-3">
-                    <TechnologyIcons />
+                <div className="mt-2 mb-2">
+                    <TechnologiesIcons />
                 </div>
                 
             </motion.div>
@@ -97,7 +97,7 @@ const MySkills = () => {
                     </div>
                     <div className="w-1/2 md:w-3/4 h-32 bg-purple absolute right-0 top-0 z-[-1]" />
                 </div>
-                <p className="mt-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+                <p className="font-opensans mt-6 mb-6">Growth Mindset | <span className="text-yellow">Creativity</span> | Project Management | <span className="text-yellow">Communication</span> | Problem Solving | <span className="text-yellow">Teamwork</span></p>
             </motion.div>
 
             {/* IMAGINITIVE HERE */}
@@ -119,8 +119,10 @@ const MySkills = () => {
                         <p className="font-playfair font-semibold text-3xl mt-3">Experience</p>
                     </div>
                     <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
-                    <p className="mt-10 mb-10">Marketing Analyst <a className="text-yellow" href="https://www.magnoliacap.com/">@ Magnolia Capital</a></p>
                 </div>
+                <p className="mt-5 mb-5 font-opensans">Marketing Analyst <a className="text-yellow" href="https://www.magnoliacap.com/">@ Magnolia Capital</a></p>
+                <p className="text-xs font-opensans text-white">August 2022 - Present</p>
+
             </motion.div>
         </div>
     </section>

@@ -58,7 +58,7 @@ const Landing = ({setSelectedPage}) => {
             </span>
           </p>
 
-          <p className="mt-10 mb-7 text-sm text-center md:text-start">
+          <p className="font-opensans mt-10 mb-7 text-sm text-center md:text-start">
           Javascript Developer specializing in building unique digital experiences primarily using Front-End Technologies and Frameworks such as React, and Next.js. 
           </p>
         </motion.div>

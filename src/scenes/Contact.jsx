@@ -29,13 +29,14 @@ const Contact = () => {
             visible: { opacity: 1, x: 0 },
             }}
             >
+              <div>
                 <p className="font-playfair font-semibold text-4xl mb-5 text-center">
                     <span className="text-yellow">CONTACT ME</span> TO GET STARTED
                 </p>
-            <LineGradient width="mx-auto w-2/4" />
-            <p className="mt-10 text-center">
-                Hear What People Are Saying About My Work.
-            </p>
+                <div className="flex md:justify-end my-5">
+                    <LineGradient width="mx-auto w-2/4" />
+                </div>
+              </div>
             </motion.div>
         </section>
     )
