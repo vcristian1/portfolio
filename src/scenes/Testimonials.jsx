@@ -16,7 +16,7 @@ export const Testimonials = () => {
           visible: { opacity: 1, x: 0 },
         }}
       >
-        <p className="font-playfair font-semibold text-4xl mb-5 text-lightpurple text-center">
+        <p className="font-playfair font-semibold text-4xl mb-5 text-purple text-center">
           TESTIMONIALS
         </p>
         <LineGradient width="mx-auto w-2/5" />

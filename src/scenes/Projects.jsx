@@ -58,7 +58,7 @@ export const Projects = () => {
             >   
                 <div>
                     <p className="font-playfair font-semibold text-4xl text-center">
-                        <span className="text-lightpurple">PRO</span>JECTS
+                        <span className="text-purple">PRO</span>JECTS
                     </p>
                 </div>
                 <div className="flex justify-center mt-5">
