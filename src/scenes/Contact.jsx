@@ -100,6 +100,12 @@ const Contact = () => {
                              pattern: /^[A-Z-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i
                          })}
                          />
+                         {errors.email && (
+                            <p className="text-red mt-1">
+                                {errors.name.type === "required" && "This field is required!"}
+                                {errors.name.type === "pattern" && "Invalid email address!"}
+                            </p>  
+                         )}
                     </form>
                 </motion.div>
             </div>
