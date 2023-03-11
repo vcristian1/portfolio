@@ -19,11 +19,11 @@ const MySkills = () => {
                 visible: { opacity: 1, x: 0 },
             }}
             >
-                <p className="font-playfair fontt-semibold text-4xl mb-5">
+                <p className="font-playfair font-semibold text-4xl mb-5">
                     MY <span className="text-lightpurple">SKILLS</span>
                 </p>
                 <LineGradient width="w-1/3" />
-                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                <p className="mt-10 mb-10">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
             </motion.div>
 
             <div className="mt-16 md:mt-0">
