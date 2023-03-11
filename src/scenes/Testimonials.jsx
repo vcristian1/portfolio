@@ -28,7 +28,7 @@ export const Testimonials = () => {
       <div className="md:flex md:justify-between gap-8">
         <motion.div
           className="mx-auto relative bg-blue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person1"
+            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}

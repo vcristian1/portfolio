@@ -23,14 +23,14 @@ const Landing = ({setSelectedPage}) => {
             <img
               alt="profile"
               className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
-              src="assets/profile-image3.png"
+              src="assets/profile-image3.jpeg"
             />
           </div>
         ) : (
           <img
             alt="profile"
             className="z-10 w-full max-w-[400px] md:max-w-[600px]"
-            src="assets/profile-image3.png"
+            src="assets/profile-image3.jpeg"
           />
         )}
       </div>
@@ -51,7 +51,7 @@ const Landing = ({setSelectedPage}) => {
           <p className="text-6xl font-playfair z-10 text-center md:text-start">
             Cristian {""}
             <span
-              className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush1
+              className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush2
               before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
             >
               Vargas
@@ -76,7 +76,7 @@ const Landing = ({setSelectedPage}) => {
           }}
         >
           <AnchorLink
-            className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
+            className="bg-gradient-rainbow text-deep-blue rounded-sm py-3 px-7 font-semibold
               hover:bg-blue hover:text-white transition duration-500"
             onClick={() => setSelectedPage("contact")}
             href="#contact"
@@ -84,7 +84,7 @@ const Landing = ({setSelectedPage}) => {
             Contact Me
           </AnchorLink>
           <AnchorLink
-            className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
+            className="rounded-r-sm bg-blue py-0.5 pr-0.5"
             onClick={() => setSelectedPage("contact")}
             href="#contact"
           >

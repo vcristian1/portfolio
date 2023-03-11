@@ -19,7 +19,7 @@ const projectVariant = {
 
 // Function to reference our project images. Function converts project name from "Project 1" to "project-1" which matches the url in our assets folder for the project screenshot
 const Project = ({ title, description, link }) => {
-    const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 hover:bg-white transition duration-500
+    const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-95 hover:bg-white transition duration-500
       bg-grey z-30 flex flex-col justify-center text-center p-16 text-black`;
     const projectTitle = title.split(" ").join("-").toLowerCase();
   
@@ -30,10 +30,16 @@ const Project = ({ title, description, link }) => {
           <p className="xsm:text-sm mt-2">
             {description}
           </p>
-          <a className="mt-2 bg-gradient-rainblue text-deep-blue rounded-sm py-2 px-6 font-semibold
-          hover:bg-blue hover:text-white transition duration-500" target="_blank" rel="no-referrer" href={link} alt={title}>
-            Deploy
-          </a>
+          <div className="flex justify-center text-center items-center">
+            <a className="bg-gradient-rainbow text-deep-blue rounded-sm py-3 px-7 font-semibold
+                hover:bg-blue hover:text-white transition duration-500" target="_blank" rel="no-referrer" href={link} alt={title}>
+              Demo
+            </a>
+            <a className="bg-deep-blue text-white rounded-sm py-3 px-7 font-semibold
+                hover:bg-deep-blue hover:text-yellow transition duration-500" target="_blank" rel="no-referrer" href={link} alt={title}>
+              Repo
+            </a>
+          </div>
         </div>
         <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
       </motion.div>
@@ -58,7 +64,7 @@ export const Projects = () => {
             >   
                 <div>
                     <p className="font-playfair font-semibold text-4xl text-center">
-                        <span className="text-purple">PRO</span>JECTS
+                        <span className="text-yellow">SOME</span> THINGS I'VE BUILT
                     </p>
                 </div>
                 <div className="flex justify-center mt-5">
