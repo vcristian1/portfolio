@@ -26,14 +26,14 @@ const Project = ({ title, description, link }) => {
     return (
       <motion.div variants={projectVariant} className="relative">
         <div className={overlayStyles}>
-          <p className="text-2xl font-playfair">{title}</p>
-          <p className="mt-2">
+          <p className="xsm:text-sm text-2xl font-semibold font-playfair">{title}</p>
+          <p className="xsm:text-sm mt-2">
             {description}
           </p>
-          <button className="mt-2 bg-gradient-rainblue text-deep-blue rounded-sm py-2 px-6 font-semibold
-              hover:bg-blue hover:text-white transition duration-500">
-            <a href={link}></a>Deploy
-          </button>
+          <a className="mt-2 bg-gradient-rainblue text-deep-blue rounded-sm py-2 px-6 font-semibold
+          hover:bg-blue hover:text-white transition duration-500" target="_blank" rel="no-referrer" href={link} alt={title}>
+            Deploy
+          </a>
         </div>
         <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
       </motion.div>
@@ -82,16 +82,16 @@ export const Projects = () => {
                 >
                     BEAUTIFUL USER INTERFACES
                 </div>
-                <Project description="A Netflix clone built using Typescript, and Next." link="https://moviesjs.vercel.app/login" title="Project 1" />
-                <Project title="Project 2" />
+                <Project description="Netflix clone built using Typescript and Next.js" link="https://moviesjs.vercel.app/login" title="Nextflix" />
+                <Project description="User Review Web App for Campgrounds" link="https://hidden-tor-07938.herokuapp.com/" title="Yelpcamp" />
 
                 {/* ROW 2 HERE */}
-                <Project title="Project 3" />
-                <Project title="Project 4" />
-                <Project title="Project 5" />
+                <Project description="Landing Page for HighVine Homes' 55+ Communities" link="https://highvinehomes.com/active-adult/#/" title="HighVine" />
+                <Project description="History Web App built using React-Three-Fiber" link="https://my-world-view.herokuapp.com/" title="Worldview" />
+                <Project description="Weather App built using Javascript & Open Weather API" link="https://vcristian1.github.io/get-weather-api/" title="Weather" />
 
                 {/* ROW 2 HERE */}
-                <Project title="Project 6" />
+                <Project description="Task Management App built using Typescript and Next.js" link="https://next-task-liard.vercel.app/signin" title="Taskify" />
                 <div
                 className="flex justify-center text-center items-center p-10 bg-purple max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
                 >
