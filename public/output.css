@@ -561,6 +561,28 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.container{
+  width: 100%;
+}
+
+@media (min-width: 480px){
+  .container{
+    max-width: 480px;
+  }
+}
+
+@media (min-width: 768px){
+  .container{
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1060px){
+  .container{
+    max-width: 1060px;
+  }
+}
+
 .visible{
   visibility: visible;
 }
@@ -675,6 +697,18 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mb-\[-10\]{
+  margin-bottom: -10;
+}
+
+.mt-2{
+  margin-top: 0.5rem;
+}
+
+.mt-7{
+  margin-top: 1.75rem;
+}
+
 .flex{
   display: flex;
 }
@@ -703,6 +737,10 @@ video {
   height: 8rem;
 }
 
+.max-h-\[400px\]{
+  max-height: 400px;
+}
+
 .w-3{
   width: 0.75rem;
 }
@@ -725,6 +763,10 @@ video {
 
 .w-1\/2{
   width: 50%;
+}
+
+.w-2\/3{
+  width: 66.666667%;
 }
 
 .max-w-\[400px\]{
@@ -831,6 +873,10 @@ video {
   background-color: rgb(106 0 244 / var(--tw-bg-opacity));
 }
 
+.bg-grey{
+  background-color: ededed;
+}
+
 .bg-gradient-rainblue{
   background-image: linear-gradient(90deg, #24CBFF 14.53%, #FC59FF 69.36%, #6a00f4 117.73%);
 }
@@ -841,6 +887,14 @@ video {
 
 .p-2{
   padding: 0.5rem;
+}
+
+.p-10{
+  padding: 2.5rem;
+}
+
+.p-16{
+  padding: 4rem;
 }
 
 .px-10{
@@ -970,6 +1024,15 @@ video {
 .text-lightpurple{
   --tw-text-opacity: 1;
   color: rgb(194 0 251 / var(--tw-text-opacity));
+}
+
+.text-black{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.opacity-0{
+  opacity: 0;
 }
 
 .transition{
@@ -1102,6 +1165,11 @@ body,
   background-color: rgb(44 188 233 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-white:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .hover\:text-white:hover{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1114,6 +1182,10 @@ body,
 
 .hover\:opacity-50:hover{
   opacity: 0.5;
+}
+
+.hover\:opacity-90:hover{
+  opacity: 0.9;
 }
 
 .hover\:saturate-200:hover{
@@ -1153,6 +1225,16 @@ body,
   }
 }
 
+@media (min-width: 768px){
+  .sm\:grid{
+    display: grid;
+  }
+
+  .sm\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
 @media (min-width: 1060px){
   .md\:order-2{
     order: 2;
@@ -1164,6 +1246,10 @@ body,
 
   .md\:mt-0{
     margin-top: 0px;
+  }
+
+  .md\:mb-5{
+    margin-bottom: 1.25rem;
   }
 
   .md\:flex{
