@@ -18,7 +18,7 @@ const projectVariant = {
 };
 
 // Function to reference our project images. Function converts project name from "Project 1" to "project-1" which matches the url in our assets folder for the project screenshot
-const Project = ({ title }) => {
+const Project = ({ title, description, link }) => {
     const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 hover:bg-white transition duration-500
       bg-grey z-30 flex flex-col justify-center text-center p-16 text-black`;
     const projectTitle = title.split(" ").join("-").toLowerCase();
@@ -27,9 +27,13 @@ const Project = ({ title }) => {
       <motion.div variants={projectVariant} className="relative">
         <div className={overlayStyles}>
           <p className="text-2xl font-playfair">{title}</p>
-          <p className="mt-7">
-            
+          <p className="mt-2">
+            {description}
           </p>
+          <button className="mt-2 bg-gradient-rainblue text-deep-blue rounded-sm py-2 px-6 font-semibold
+              hover:bg-blue hover:text-white transition duration-500">
+            <a href={link}></a>Deploy
+          </button>
         </div>
         <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
       </motion.div>
@@ -74,11 +78,11 @@ export const Projects = () => {
             >
                 {/* ROW 1 HERE */}
                 <div
-                className="flex justify-center text-center items-center p-10 bg-gradient-rainblue max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+                className="flex justify-center text-center items-center p-10 bg-blue max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
                 >
                     BEAUTIFUL USER INTERFACES
                 </div>
-                <Project title="Project 1" />
+                <Project description="A Netflix clone built using Typescript, and Next." link="https://moviesjs.vercel.app/login" title="Project 1" />
                 <Project title="Project 2" />
 
                 {/* ROW 2 HERE */}
@@ -89,7 +93,7 @@ export const Projects = () => {
                 {/* ROW 2 HERE */}
                 <Project title="Project 6" />
                 <div
-                className="flex justify-center text-center items-center p-10 bg-gradient-rainblue max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+                className="flex justify-center text-center items-center p-10 bg-purple max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
                 >
                     SMOOTH USER EXPERIENCE
                 </div>
