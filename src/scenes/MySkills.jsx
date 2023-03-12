@@ -97,7 +97,7 @@ const MySkills = () => {
                     </div>
                     <div className="w-1/2 md:w-3/4 h-32 bg-purple absolute right-0 top-0 z-[-1]" />
                 </div>
-                <p className="font-opensans mt-6 mb-6">Growth Mindset | <span className="text-yellow">Creativity</span> | Project Management | <span className="text-yellow">Communication</span> | Problem Solving | <span className="text-yellow">Teamwork</span></p>
+                <p className="font-opensans mt-9 mb-9">Growth Mindset | <span className="text-yellow">Creativity</span> | Project Management | <span className="text-yellow">Communication</span> | Problem Solving | <span className="text-yellow">Teamwork</span> |</p>
             </motion.div>
 
             {/* IMAGINITIVE HERE */}
@@ -120,7 +120,7 @@ const MySkills = () => {
                     </div>
                     <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
                 </div>
-                <p className="mt-5 mb-5 font-opensans">Marketing Analyst <a className="text-yellow" href="https://www.magnoliacap.com/">@ Magnolia Capital</a></p>
+                <p className="mt-8 mb-8 font-opensans">Marketing Analyst <a className="text-yellow" href="https://www.magnoliacap.com/">@ Magnolia Capital</a></p>
                 <p className="text-xs font-opensans text-white">August 2022 - Present</p>
 
             </motion.div>

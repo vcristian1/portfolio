@@ -21,7 +21,7 @@ export const Testimonials = () => {
         </p>
         <LineGradient width="mx-auto w-2/5" />
         <p className="mt-10 text-center">
-          Read what others are saying about my work.
+          See what others are saying about my work.
         </p>
       </motion.div>
 

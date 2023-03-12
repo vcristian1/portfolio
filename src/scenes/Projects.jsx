@@ -19,7 +19,7 @@ const projectVariant = {
 };
 
 // Function to reference our project images. Function converts project name from "Project 1" to "project-1" which matches the url in our assets folder for the project screenshot
-const Project = ({ title, description, link }) => {
+const Project = ({ title, description, link, repo }) => {
     const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-95 hover:bg-white transition duration-500
       bg-grey z-30 flex flex-col justify-center text-center p-16 text-black`;
     const projectTitle = title.split(" ").join("-").toLowerCase();
@@ -32,12 +32,12 @@ const Project = ({ title, description, link }) => {
             {description}
           </p>
           <div className="flex justify-center text-center items-center">
-            <a className="bg-gradient-rainbow text-deep-blue rounded-sm py-3 px-7 font-semibold
+            <a className="bg-gradient-rainbow text-deep-blue rounded-sm py-2 px-5 font-semibold
                 hover:bg-blue hover:text-white transition duration-500" target="_blank" rel="no-referrer" href={link} alt={title}>
               Demo
             </a>
-            <a className="bg-deep-blue text-white rounded-sm py-3 px-7 font-semibold
-                hover:bg-deep-blue hover:text-yellow transition duration-500" target="_blank" rel="no-referrer" href={link} alt={title}>
+            <a className="bg-deep-blue text-white rounded-sm py-2 px-5 font-semibold
+                hover:bg-deep-blue hover:text-yellow transition duration-500" target="_blank" rel="no-referrer" href={repo} alt={title}>
               Repo
             </a>
           </div>
@@ -101,16 +101,16 @@ export const Projects = () => {
                 >
                     BEAUTIFUL USER INTERFACES
                 </div>
-                <Project description="Netflix clone built using Typescript and Next.js" link="https://moviesjs.vercel.app/login" title="Nextflix" />
-                <Project description="User Review Web App for Campgrounds" link="https://hidden-tor-07938.herokuapp.com/" title="Yelpcamp" />
+                <Project repo="https://github.com/vcristian1/Nextflix-React" description="Netflix clone built using Typescript and Next.js" link="https://moviesjs.vercel.app/login" title="Nextflix" />
+                <Project repo="https://github.com/vcristian1/yelpcamp" description="User Review Web App for Campgrounds" link="https://hidden-tor-07938.herokuapp.com/" title="Yelpcamp" />
 
                 {/* ROW 2 HERE */}
-                <Project description="Landing Page for HighVine Homes' 55+ Communities" link="https://highvinehomes.com/active-adult/#/" title="HighVine" />
-                <Project description="History Web App built using React-Three-Fiber" link="https://my-world-view.herokuapp.com/" title="Worldview" />
-                <Project description="Weather App built using Javascript & Open Weather API" link="https://vcristian1.github.io/get-weather-api/" title="Weather" />
+                <Project repo="https://highvinehomes.com/active-adult/#/" description="Landing Page for HighVine Homes' 55+ Communities" link="https://highvinehomes.com/active-adult/#/" title="HighVine" />
+                <Project repo="https://github.com/vcristian1/WorldView" description="History Web App built using React-Three-Fiber" link="https://my-world-view.herokuapp.com/" title="Worldview" />
+                <Project repo="https://github.com/vcristian1/get-weather-api" description="Weather App built using Javascript & Open Weather API" link="https://vcristian1.github.io/get-weather-api/" title="Weather" />
 
                 {/* ROW 2 HERE */}
-                <Project description="Task Management App built using Typescript and Next.js" link="https://next-task-liard.vercel.app/signin" title="Taskify" />
+                <Project repo="https://github.com/vcristian1/next-task" description="Task Management App built using Typescript and Next.js" link="https://next-task-liard.vercel.app/signin" title="Taskify" />
                 <div
                 className="flex justify-center text-center items-center p-10 bg-yellow max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
                 >
