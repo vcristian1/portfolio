@@ -102,10 +102,32 @@ const Contact = () => {
                          />
                          {errors.email && (
                             <p className="text-red mt-1">
-                                {errors.name.type === "required" && "This field is required!"}
-                                {errors.name.type === "pattern" && "Invalid email address!"}
+                                {errors.email.type === "required" && "This field is required!"}
+                                {errors.email.type === "pattern" && "Invalid email address!"}
                             </p>  
                          )}
+
+                        <textarea  
+                         className="w-full bg-blue font-semibold placeholder-opaque-black p-3 mt-5" 
+                         type="text" 
+                         placeholder="MESSAGE"
+                         rows="4"
+                         cols="50"
+                         // Telling React Hook Form I am Registering this particular input inside of it, and its called name with validation
+                         {...register("message", {
+                             required: true, 
+                             maxLength: 2000,
+                         })}
+                         />
+                         {errors.message && (
+                            <p className="text-red mt-1">
+                                {errors.message.type === "required" && "This field is required!"}
+                                {errors.message.type === "max length" && "Max length is 2000 characters!"}
+                            </p>  
+                         )}
+                         <div className="justify-center items-center">
+                             <button type="submit" className="p-5 bg-gradient-rainbow font-semibold text-deep-blue mt-5 hover:bg-gradient-rainbow hover:text-white items-center transition duration-500">SEND ME A MESSAGE</button>
+                         </div>
                     </form>
                 </motion.div>
             </div>
