@@ -3,7 +3,7 @@ import React from 'react'
 const SocialMediaIcons = () => {
   return (
     <div className='flex justify-center md:justify-start my-10 gap-7'>
-        <a className="hover:opacity-50 transition duration-500" href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+        <a className="hover:opacity-50 transition duration-500" href="https://www.facebook.com/cristianvargas.vargas.777?mibextid=LQQJ4d" target="_blank" rel="noreferrer">
             <img src="../assets/facebook-logo.png" alt="facebook-link" />
         </a>
         <a className="hover:opacity-50 transition duration-500" href="https://www.instagram.com/vcristian1" target="_blank" rel="noreferrer">
