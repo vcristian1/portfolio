@@ -67,12 +67,13 @@ const Contact = () => {
                 }}
                 >
                     <form 
-                    action="" 
+                    action="https://formsubmit.co/09821b6ccaa4f7a4347fa2a6712cb014" 
                     target="_blank" 
                     onSubmit={onSubmit} 
                     method="POST"
                     >
                         <input 
+                        name="name"
                         className="w-full bg-blue font-semibold placeholder-opaque-black p-3" 
                         type="text" 
                         placeholder="NAME"
@@ -89,7 +90,8 @@ const Contact = () => {
                             </p>  
                          )}
 
-                         <input  
+                         <input
+                         name="email"  
                          className="w-full bg-blue font-semibold placeholder-opaque-black p-3 mt-5" 
                          type="text" 
                          placeholder="EMAIL"
@@ -107,7 +109,8 @@ const Contact = () => {
                             </p>  
                          )}
 
-                        <textarea  
+                        <textarea 
+                         name="message" 
                          className="w-full bg-blue font-semibold placeholder-opaque-black p-3 mt-5" 
                          type="text" 
                          placeholder="MESSAGE"
