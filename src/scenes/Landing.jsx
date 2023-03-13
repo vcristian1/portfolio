@@ -81,17 +81,18 @@ const Landing = ({setSelectedPage}) => {
             onClick={() => setSelectedPage("contact")}
             href="#contact"
           >
-            Contact Me
+            Lets Talk
           </AnchorLink>
-          <AnchorLink
+          <a 
             className="rounded-r-sm bg-blue py-0.5 pr-0.5"
-            onClick={() => setSelectedPage("contact")}
-            href="#contact"
+            href="https://drive.google.com/file/d/1QiAnY5BdV-IVgcTQ3foHv1s7Azb4gpnw/view?usp=sharing"
+            rel="noreferrrer"
+            target="_blank"
           >
             <div className="bg-deep-blue hover:text-yellow transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair">
-              Let's talk.
+              Resume
             </div>
-          </AnchorLink>
+          </a>
         </motion.div>
 
         <motion.div
