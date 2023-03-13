@@ -89,7 +89,7 @@ export const Projects = () => {
         {/* PROJECTS HERE */}
         <div className="flex justify-center">
             <motion.div
-                className="sm:grid sm:grid-cols-3"
+                className="xs:grid-cols-1 sm:grid sm:grid-cols-3"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.5 }}
@@ -117,7 +117,6 @@ export const Projects = () => {
                     SMOOTH USER EXPERIENCE
                 </div>
             </ motion.div>   
-
         </div>
     </section>
   )

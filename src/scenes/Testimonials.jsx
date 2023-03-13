@@ -28,7 +28,7 @@ export const Testimonials = () => {
       <div className="md:flex md:justify-between gap-8">
         <motion.div
           className="mx-auto relative bg-purple max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[100px] before:left-1/2 before:content-person1 before:mt-[-40px]"
+            before:absolute before:top-[-120px] before:-ml-[100px] before:left-1/2 before:content-person1 before:mt-[-60px]"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -38,7 +38,7 @@ export const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="font-playfair text-6xl">“</p>
+          <p className="mb-[-20px] font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
           I would rate Cristian very highly, not only for his knowledge, skills, and perseverance but also for his ability to remain calm and methodical under severe pressure. - Ankit Patel</p>
           
