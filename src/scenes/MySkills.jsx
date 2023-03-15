@@ -24,7 +24,7 @@ const MySkills = () => {
                     MY <span className="text-yellow">SKILLS</span>
                 </p>
                 <LineGradient width="w-1/3" />
-                <p className="mt-10 mb-10">To sharpen my skills further, I focus on building and maintaining dynamic Full Stack Web Applications.</p>
+                <p className="font-opensans mt-10 mb-10">To sharpen my skills further, I focus on building and maintaining dynamic Full Stack Web Applications.</p>
             </motion.div>
 
             <div className="mt-16 md:mt-0">

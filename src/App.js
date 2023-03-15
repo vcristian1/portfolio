@@ -9,12 +9,13 @@ import Projects from "./scenes/Projects";
 import Testimonials from "./scenes/Testimonials";
 import Contact from "./scenes/Contact";
 import Footer from "./scenes/Footer";
+import { motion } from "framer-motion";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
   // This will use the media query we created isAboveMediumScreens, and it will set the min width to be 1060px.
   // Determines whether the current browser size min width is less than 1060 or above 1060
-  const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
+  const isDesktop = useMediaQuery("(min-width: 1060px)");
   const [isTopOfPage, setIsTopOfPage] = useState(true);
 
   useEffect(() => {
@@ -31,37 +32,65 @@ function App() {
 
   return (
     <div className="app bg-deep-blue">
-      <Navbar 
+      <Navbar
+        isTopOfPage={isTopOfPage}
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
-        isTopOfPage={isTopOfPage}
       />
-      <div className="w-5/6 mx-auto md:h-full mb-5 md:mb-5">
-        {isAboveMediumScreens && (
-          <DotGroup 
-           selectedPage={selectedPage}
-           setSelectedPage={setSelectedPage}
+      <div className="w-5/6 mx-auto md:h-full mb-[130px]">
+        {isDesktop && (
+          <DotGroup
+            selectedPage={selectedPage}
+            setSelectedPage={setSelectedPage}
           />
         )}
-        <Landing  
-         setSelectedPage={setSelectedPage} 
-        />
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("home")}
+        >
+          <Landing setSelectedPage={setSelectedPage} />
+        </motion.div>
       </div>
       <LineGradient />
-      <div className="w-5/6 mx-auto md:h-full mb-5">
+      <div className="w-5/6 mx-auto md:h-full mb-[130px]">
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("skills")}
+        >
           <MySkills />
-      </div>
-      
-      <div className="w-5/6 mx-auto mb-5">
-          <Projects />
+        </motion.div>
       </div>
       <LineGradient />
-      <div className="w-5/6 mx-auto md:h-full ">
+      <div className="w-5/6 mx-auto">
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("projects")}
+        >
+          <Projects />
+        </motion.div>
+      </div>
+      <LineGradient />
+      <div className="w-5/6 mx-auto md:h-full mb-[130px]">
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("testimonials")}
+        >
           <Testimonials />
+        </motion.div>
       </div>
       <LineGradient />
       <div className="w-5/6 mx-auto md:h-full">
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("contact")}
+        >
           <Contact />
+        </motion.div>
       </div>
       <Footer />
     </div>

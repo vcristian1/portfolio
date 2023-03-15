@@ -16,11 +16,11 @@ export const Testimonials = () => {
           visible: { opacity: 1, x: 0 },
         }}
       >
-        <p className="font-playfair font-semibold text-4xl mb-5 text-yellow text-center">
-          TESTIMONIALS
+        <p className="font-playfair font-semibold text-4xl mb-5 text-white text-center">
+          MY <span className="text-yellow">TESTIMONIALS</span>
         </p>
         <LineGradient width="mx-auto w-2/5" />
-        <p className="mt-10 text-center">
+        <p className="font-opensans mt-10 text-center">
           See what others are saying about my work.
         </p>
       </motion.div>
@@ -38,8 +38,8 @@ export const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="mb-[-20px] font-playfair text-6xl">“</p>
-          <p className="text-center text-xl">
+          <p className="mb-[-20px] font-opensans text-6xl">“</p>
+          <p className="font-opensans text-center text-xl">
           I would rate Cristian very highly, not only for his knowledge, skills, and perseverance but also for his ability to remain calm and methodical under severe pressure. - Ankit Patel</p>
           
         </motion.div>
