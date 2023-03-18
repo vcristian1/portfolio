@@ -129,7 +129,7 @@ const Contact = () => {
                             </p>  
                          )}
                          <div className="justify-center items-center">
-                             <button type="submit" className="p-5 rounded bg-gradient-rainbow font-semibold text-deep-blue mt-5 hover:bg-gradient-rainbow hover:text-white items-center transition duration-500">SEND ME A MESSAGE</button>
+                             <button type="submit" className="p-5 rounded bg-gradient-rainbow font-semibold text-deep-blue mt-5 hover:bg-gradient-rainbow hover:text-white items-center transition duration-500">Send Me A Message</button>
                          </div>
                     </form>
                 </motion.div>
