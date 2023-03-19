@@ -101,6 +101,7 @@ export const Projects = () => {
                 >
                     BEAUTIFUL USER INTERFACES
                 </div>
+                <Project repo="https://github.com/vcristian1/codebuddy" description="A ChatGPT AI Web App built using the OpenAI API." link="https://codebuddy-one.vercel.app/" title="Codebuddy" />
                 <Project repo="https://github.com/vcristian1/Nextflix-React" description="Netflix clone built using Typescript and Next.js" link="https://moviesjs.vercel.app/login" title="Nextflix" />
                 <Project repo="https://github.com/vcristian1/yelpcamp" description="User Review Web App for Campgrounds" link="https://hidden-tor-07938.herokuapp.com/" title="Yelpcamp" />
 

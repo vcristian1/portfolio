@@ -15,6 +15,9 @@ const TechnologyIcons = () => {
         <a className="hover:opacity-50 transition duration-500" href="https://nodejs.org/en/" target="_blank" rel="noreferrer">
             <img src="../assets/node.png" alt="node-link" />
         </a>
+        <a className="hover:opacity-50 transition duration-500" href="https://expressjs.com/" target="_blank" rel="noreferrer">
+            <img src="../assets/express.png" alt="node-link" />
+        </a>
         <a className="hover:opacity-50 transition duration-500" href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
             <img src="../assets/tailwind.png" alt="tailwind-link" />
         </a>
