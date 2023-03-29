@@ -105,10 +105,11 @@ export const Projects = () => {
                 <Project repo="https://github.com/vcristian1/ReactFit" description="A React.js and Vite.js Web App for a fitness gym built using Typescript." link="https://react-fit-nu.vercel.app/" title="Evogym" />
                 <Project repo="https://github.com/vcristian1/codebuddy" description="A ChatGPT AI Web App built using the OpenAI API." link="https://codebuddy-one.vercel.app/" title="Codebuddy" />
                 {/* ROW 2 HERE */}
+                <Project repo="https://github.com/vcristian1/ibank" description="A React.js and Vite.js Web App for a Credit Card company" link="https://ibank-omega.vercel.app/" title="Ibank" />
                 <Project repo="https://highvinehomes.com/active-adult/#/" description="Landing Page for HighVine Homes' 55+ Communities" link="https://highvinehomes.com/active-adult/#/" title="HighVine" />
                 <Project repo="https://github.com/vcristian1/yelpcamp" description="User Review Web App for Campgrounds" link="https://hidden-tor-07938.herokuapp.com/" title="Yelpcamp" />
-                <Project repo="https://github.com/vcristian1/WorldView" description="History Web App built using React-Three-Fiber" link="https://my-world-view.herokuapp.com/" title="Worldview" />
                 {/* ROW 2 HERE */}
+                <Project repo="https://github.com/vcristian1/WorldView" description="History Web App built using React-Three-Fiber" link="https://my-world-view.herokuapp.com/" title="Worldview" />
                 <Project repo="https://github.com/vcristian1/next-task" description="Task Management App built using Typescript and Next.js" link="https://next-task-liard.vercel.app/signin" title="Taskify" />
                 <Project repo="https://github.com/vcristian1/get-weather-api" description="Weather App built using Javascript & Open Weather API" link="https://vcristian1.github.io/get-weather-api/" title="Weather" />
                 <div
