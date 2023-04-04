@@ -102,7 +102,7 @@ export const Projects = () => {
                     BEAUTIFUL USER INTERFACES
                 </div>
                 <Project repo="https://github.com/vcristian1/Nextflix-React" description="Netflix clone built using Typescript and Next.js" link="https://moviesjs.vercel.app/login" title="Nextflix" />
-                <Project repo="https://github.com/vcristian1/colibri" description="A React.js and Vite.js Web App for Colibri a construction services company built using Typescript and React." link="https://colibri-six.vercel.app/" title="Colibri" />
+                <Project repo="https://github.com/vcristian1/colibri" description="A React.js and Vite.js Web App for Colibri a construction services company built using Typescript and React." link="colibri.construction" title="Colibri" />
                 <Project repo="https://github.com/vcristian1/codebuddy" description="A ChatGPT AI Web App built using the OpenAI API." link="https://codebuddy-one.vercel.app/" title="Codebuddy" />
                 {/* ROW 2 HERE */}
                 <Project repo="https://github.com/vcristian1/ibank" description="A React.js and Vite.js Web App for a Credit Card company" link="https://ibank-omega.vercel.app/" title="Ibank" />
