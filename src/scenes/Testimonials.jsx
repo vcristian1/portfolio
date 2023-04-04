@@ -39,7 +39,7 @@ export const Testimonials = () => {
           }}
         >
           <p className="mb-[-20px] font-opensans text-6xl">“</p>
-          <p className="font-opensans text-center text-xl">
+          <p className="font-opensans text-center xs:text-[17px] sm:text-[20px] md:text-xl lg:text-xl">
           I would rate Cristian very highly, not only for his knowledge, skills, and perseverance but also for his ability to remain calm and methodical under severe pressure. - Ankit Patel</p>
           
         </motion.div>

@@ -65,7 +65,7 @@ export const Projects = () => {
             >   
                 <div>
                     <p className="font-playfair font-semibold text-4xl text-center">
-                        <span className="text-yellow">SOME</span> THINGS I'VE BUILT
+                        <span className="text-yellow">PROJECTS</span> I'VE BUILT
                     </p>
                 </div>
                 <div className="flex justify-center mt-5">
@@ -102,7 +102,7 @@ export const Projects = () => {
                     BEAUTIFUL USER INTERFACES
                 </div>
                 <Project repo="https://github.com/vcristian1/Nextflix-React" description="Netflix clone built using Typescript and Next.js" link="https://moviesjs.vercel.app/login" title="Nextflix" />
-                <Project repo="https://github.com/vcristian1/colibri" description="A Next.js Web App for Colibri Construction Services built using Typescript." link="colibri.construction" title="Colibri" />
+                <Project repo="https://github.com/vcristian1/colibri" description="A Next.js Web App for Colibri Construction Services built using Typescript." link="https://colibri.construction" title="Colibri" />
                 <Project repo="https://github.com/vcristian1/codebuddy" description="A ChatGPT AI Web App built using the OpenAI API." link="https://codebuddy-one.vercel.app/" title="Codebuddy" />
                 {/* ROW 2 HERE */}
                 <Project repo="https://github.com/vcristian1/ibank" description="A React.js and Vite.js Web App for a Credit Card company" link="https://ibank-omega.vercel.app/" title="Ibank" />

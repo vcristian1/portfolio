@@ -24,7 +24,7 @@ const MySkills = () => {
                     MY <span className="text-yellow">SKILLS</span>
                 </p>
                 <LineGradient width="w-1/3" />
-                <p className="font-opensans mt-10 mb-10">To sharpen my skills further, I focus on building and maintaining dynamic Full Stack Web Applications.</p>
+                <p className="font-opensans mt-10 mb-10">To keep my skills sharp, I focus on building and maintaining dynamic Full Stack Web Applications.</p>
             </motion.div>
 
             <div className="mt-16 md:mt-0">
@@ -120,8 +120,10 @@ const MySkills = () => {
                     </div>
                     <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
                 </div>
-                <p className="mt-8 mb-8 font-opensans">Marketing Analyst <a className="text-yellow" href="https://www.magnoliacap.com/">@ Magnolia Capital</a></p>
-                <p className="text-xs font-opensans text-white">August 2022 - Present</p>
+                <p className="mt-8 font-opensans">Freelancer <a className="text-yellow" href="https://www.fiverr.com/vcristian1/build-a-full-stack-or-front-end-web-app-for-your-business?gig_id=308427504&utm_campaign=base_gig_create_share&utm_content=&utm_medium=shared&utm_source=get_url&utm_term=&view=gig">@ Fiverr</a></p>
+                <p className="text-xs font-opensans text-white">March 2023 - Present</p>
+                <p className="mt-8 font-opensans">Marketing Analyst <a className="text-yellow" href="https://www.magnoliacap.com/">@ Magnolia Capital</a></p>
+                <p className="text-xs font-opensans text-white">August 2022 - March 2023</p>
 
             </motion.div>
         </div>
