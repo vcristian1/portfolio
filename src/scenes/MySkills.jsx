@@ -2,6 +2,7 @@ import useMediaQuery from "../hooks/useMediaQuery";
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
 import TechnologiesIcons from "../components/TechnologiesIcons";
+import FrameworkIcons from "../components/FrameworkIcons";
 
 const MySkills = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
@@ -93,11 +94,13 @@ const MySkills = () => {
                 <div className="relative h-32">
                     <div className="z-10">
                         <p className="font-playfair font-semibold text-5xl">02</p>
-                        <p className="font-playfair font-semibold text-3xl mt-3">Soft Skills</p>
+                        <p className="font-playfair font-semibold text-3xl mt-3">Frameworks & Databases</p>
                     </div>
                     <div className="w-1/2 md:w-3/4 h-32 bg-purple absolute right-0 top-0 z-[-1]" />
                 </div>
-                <p className="font-opensans mt-9 mb-9">Growth Mindset | <span className="text-yellow">Creativity</span> | Project Management | <span className="text-yellow">Communication</span> | Problem Solving | <span className="text-yellow">Teamwork</span> |</p>
+                <div className="mt-2 mb-2">
+                    <FrameworkIcons />
+                </div>            
             </motion.div>
 
             {/* IMAGINITIVE HERE */}
@@ -120,7 +123,7 @@ const MySkills = () => {
                     </div>
                     <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
                 </div>
-                <p className="mt-8 font-opensans">Freelancer <a className="text-yellow" href="https://www.fiverr.com/vcristian1/build-a-full-stack-or-front-end-web-app-for-your-business?gig_id=308427504&utm_campaign=base_gig_create_share&utm_content=&utm_medium=shared&utm_source=get_url&utm_term=&view=gig">@ Fiverr</a></p>
+                <p className="mt-8 font-opensans">Web Application Developer <a className="text-yellow" href="https://www.fiverr.com/vcristian1/build-a-full-stack-or-front-end-web-app-for-your-business?gig_id=308427504&utm_campaign=base_gig_create_share&utm_content=&utm_medium=shared&utm_source=get_url&utm_term=&view=gig">@ Freelance</a></p>
                 <p className="text-xs font-opensans text-white">March 2023 - Present</p>
                 <p className="mt-8 font-opensans">Marketing Analyst <a className="text-yellow" href="https://www.magnoliacap.com/">@ Magnolia Capital</a></p>
                 <p className="text-xs font-opensans text-white">August 2022 - March 2023</p>
