@@ -85,7 +85,7 @@ const Landing = ({setSelectedPage}) => {
           </AnchorLink>
           <a 
             className="rounded-r-sm bg-blue py-0.5 pr-0.5"
-            href="https://drive.google.com/file/d/1nslHOhWzsOMMp2DgolQ2U9ehJm77xFSu/view?usp=sharing"
+            href="https://drive.google.com/file/d/1I5KnO_n_uocK-rfmTIjP3bvt5wnNK2rM/view?usp=share_link"
             rel="noreferrrer"
             target="_blank"
           >
