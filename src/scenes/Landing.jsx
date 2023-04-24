@@ -48,19 +48,17 @@ const Landing = ({setSelectedPage}) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-6xl font-playfair z-10 text-center md:text-start">
+          <p className="text-6xl font-playfair z-10 text-center md:text-start lg:text-start">
             Cristian {""}
             <span
-              className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush2
-              before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
+              className="xs:relative xs:text-yellow xs:font-semibold z-20 md:z-20 "
             >
               Vargas
             </span>
           </p>
 
           <p className="font-opensans mt-10 mb-7 text-sm text-center md:text-start">
-          Hi! I am a Javascript Developer specializing in building unique digital experiences primarily using Front-End Technologies and Frameworks such as React, and Next.js. 
-          </p>
+          I am a Javascript Developer, specializing in Front-End Technologies and Frameworks, who is passionate about Design Systems, Web Accessibility, Serverless Technologies, and Digital Marketing. To further sharpen my skills, I focus on building and maintaining full stack web applications with digital marketing strategies implemented to produce growth.</p>
         </motion.div>
 
         {/* CALL TO ACTIONS */}
@@ -85,7 +83,7 @@ const Landing = ({setSelectedPage}) => {
           </AnchorLink>
           <a 
             className="rounded-r-sm bg-blue py-0.5 pr-0.5"
-            href="https://drive.google.com/file/d/1I5KnO_n_uocK-rfmTIjP3bvt5wnNK2rM/view?usp=share_link"
+            href="https://drive.google.com/file/d/1I5KnO_n_uocK-rfmTIjP3bvt5wnNK2rM/view?usp=sharing"
             rel="noreferrrer"
             target="_blank"
           >

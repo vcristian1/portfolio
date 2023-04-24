@@ -51,7 +51,7 @@ const MySkills = () => {
         </div>
 
         {/* SKILLS HERE */}
-        <div className="md:flex md:justify-between mt-16 gap-32">
+        <div className="w-full md:flex md:justify-between mt-16 gap-14">
             {/* EXPERIENCE HERE */}
             <motion.div
             className="md:w-1/3 mt-10"
@@ -119,15 +119,15 @@ const MySkills = () => {
                 <div className="relative h-32">
                     <div className="z-10">
                         <p className="font-playfair font-semibold text-5xl">03</p>
-                        <p className="font-playfair font-semibold text-3xl mt-3">Experience</p>
+                        <p className="font-playfair font-semibold text-3xl mt-3">Skills</p>
                     </div>
                     <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
                 </div>
-                <p className="mt-8 font-opensans">Web Application Developer <a className="text-yellow" href="https://www.fiverr.com/vcristian1/build-a-full-stack-or-front-end-web-app-for-your-business?gig_id=308427504&utm_campaign=base_gig_create_share&utm_content=&utm_medium=shared&utm_source=get_url&utm_term=&view=gig">@ Freelance</a></p>
-                <p className="text-xs font-opensans text-white">March 2023 - Present</p>
-                <p className="mt-8 font-opensans">Marketing Analyst <a className="text-yellow" href="https://www.magnoliacap.com/">@ Magnolia Capital</a></p>
-                <p className="text-xs font-opensans text-white">August 2022 - March 2023</p>
-
+                <div className="flex mt-4 md:mt-10 lg:mt-18 mb-2 gap-6">
+                    <p className="font-playfair font-semibold text-1xl"><span className="ml-[-10px]">&bull;</span> Web Design</p>
+                    <p className="font-playfair font-semibold text-1xl"><span className="ml-[-10px]">&bull;</span> Web Development</p>
+                    <p className="font-playfair font-semibold text-1xl"><span className="ml-[-10px]">&bull;</span> Digital Marketing</p>
+                </div>  
             </motion.div>
         </div>
     </section>

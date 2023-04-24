@@ -25,7 +25,7 @@ export const Testimonials = () => {
         </p>
       </motion.div>
 
-      <div className="md:flex md:justify-between gap-8">
+      <div className="md:flex md:justify-between gap-8 lg:mt-[50px]">
         <motion.div
           className="mx-auto relative bg-purple max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
             before:absolute before:top-[-120px] before:-ml-[100px] before:left-1/2 before:content-person2 before:mt-[-60px]"
