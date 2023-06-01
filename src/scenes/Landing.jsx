@@ -2,7 +2,7 @@ import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import SocialMediaIcons from "../components/SocialMediaIcons";
-import { AiOutlineFacebook, AiOutlineGoogle, AiOutlineInstagram, AiOutlineLinkedin  } from 'react-icons/ai';
+import { AiOutlineFacebook, AiOutlineGithub, AiOutlineInstagram, AiOutlineLinkedin  } from 'react-icons/ai';
 import { TypeAnimation } from 'react-type-animation';
 
 
@@ -67,7 +67,7 @@ const Landing = ({setSelectedPage}) => {
                 1000, // Waits 1s
                 'I am a Javascript/Typescript Developer based out of Chicago, IL.', // Deletes 'One' and types 'Two'
                 500,
-                'I build full stack web applications.',
+                'I build and maintain full stack web applications for clients.',
                 500,
                 'Nice to meet you!',
                 1000,
@@ -129,10 +129,19 @@ const Landing = ({setSelectedPage}) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <AiOutlineFacebook className="mt-10 hover:opacity-50 transition duration-500 h-12 w-12 md:h-12 md:w-12"/>
-          <AiOutlineGoogle className="mt-10 hover:opacity-50 transition duration-500 h-12 w-12 md:h-12 md:w-12"/>
-          <AiOutlineInstagram className="mt-10 hover:opacity-50 transition duration-500 h-12 w-12 md:h-12 md:w-12"/>
-          <AiOutlineLinkedin className="mt-10 hover:opacity-50 transition duration-500 h-12 w-12 md:h-12 md:w-12"/>
+          <a href="https://www.facebook.com/cristianvargas.vargas.777/" target="_blank" rel="noreferrer">
+            <AiOutlineFacebook className="mt-10 hover:opacity-50 transition duration-500 h-12 w-12 md:h-12 md:w-12"/>
+          </a> 
+          <a href="https://www.instagram.com/vcristian1" target="_blank" rel="noreferrer">
+            <AiOutlineInstagram className="mt-10 hover:opacity-50 transition duration-500 h-12 w-12 md:h-12 md:w-12"/>
+          </a>
+          <a href="https://www.linkedin.com/in/cristian-vargas-13686a1a3/" target="_blank" rel="noreferrer">
+            <AiOutlineLinkedin className="mt-10 hover:opacity-50 transition duration-500 h-12 w-12 md:h-12 md:w-12"/>
+          </a>
+          <a href="https://www.github.com/vcristian1" target="_blank" rel="noreferrer">
+            <AiOutlineGithub className="mt-10 hover:opacity-50 transition duration-500 h-12 w-12 md:h-12 md:w-12"/>
+          </a>
+          
         </motion.div>
       </div>
     </section>

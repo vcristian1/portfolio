@@ -119,14 +119,13 @@ const MySkills = () => {
                 <div className="relative h-32">
                     <div className="z-10">
                         <p className="font-playfair font-semibold text-5xl">03</p>
-                        <p className="font-playfair font-semibold text-3xl mt-3">Skills</p>
+                        <p className="font-playfair font-semibold text-3xl mt-3">Experience</p>
                     </div>
                     <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
                 </div>
-                <div className="flex mt-4 md:mt-10 lg:mt-18 mb-2 gap-6">
-                    <p className="font-playfair font-semibold text-1xl"><span className="ml-[-10px]">&bull;</span> Web Design</p>
-                    <p className="font-playfair font-semibold text-1xl"><span className="ml-[-10px]">&bull;</span> Web Development</p>
-                    <p className="font-playfair font-semibold text-1xl"><span className="ml-[-10px]">&bull;</span> Digital Marketing</p>
+                <div className="flex mt-4 md:mt-10 lg:mt-18 mb-2">
+                    <p className="text-1xl"><span className="ml-[-10px]"></span> Software Engineer Associate @ <a href="https://www.accenture.com/us-en" target="_blank" rel="noreferrer" className="text-yellow hover:opacity-50 transition duration-500 underline">Accenture</a></p>
+                    <p className="text-1xl"><span className="ml-[-10px]"></span> June 2023 - Present</p>
                 </div>  
             </motion.div>
         </div>
