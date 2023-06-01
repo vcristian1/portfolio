@@ -2,6 +2,9 @@ import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import SocialMediaIcons from "../components/SocialMediaIcons";
+import { AiOutlineFacebook, AiOutlineGoogle, AiOutlineInstagram, AiOutlineLinkedin  } from 'react-icons/ai';
+import { TypeAnimation } from 'react-type-animation';
+
 
 const Landing = ({setSelectedPage}) => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
@@ -39,6 +42,7 @@ const Landing = ({setSelectedPage}) => {
       <div className="z-30 basis-2/5 mt-12 md:mt-32">
         {/* HEADINGS */}
         <motion.div
+          className=""
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -48,7 +52,7 @@ const Landing = ({setSelectedPage}) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-6xl font-playfair z-10 text-center md:text-start lg:text-start">
+          <p className="md:mb-[50px] mb-[50px] text-6xl font-playfair z-10 text-center md:text-start lg:text-start">
             Cristian {""}
             <span
               className="xs:relative xs:text-yellow xs:font-semibold z-20 md:z-20 "
@@ -56,14 +60,35 @@ const Landing = ({setSelectedPage}) => {
               Vargas
             </span>
           </p>
+          <div className="">
+            <TypeAnimation
+              sequence={[
+                'Hello!', // Types 'One'
+                1000, // Waits 1s
+                'I am a Javascript/Typescript Developer based out of Chicago, IL.', // Deletes 'One' and types 'Two'
+                500,
+                'I build full stack web applications.',
+                500,
+                'Nice to meet you!',
+                1000,
+                () => {
+                  console.log('Sequence completed'); // Place optional callbacks anywhere in the array
+                }
+              ]}
+              wrapper="span"
+              deletionSpeed={75}
+              speed={60}
+              cursor={true}
+              repeat={Infinity}
+              className="font-opensans text-[18px] md:text-[20px] lg:text-[22px] text-center"
+            />
+          </div>
 
-          <p className="font-opensans mt-10 mb-7 text-sm text-center md:text-start">
-          I am a Javascript Developer, specializing in Front-End Technologies and Frameworks, who is passionate about Design Systems, Web Accessibility, Serverless Technologies, and Digital Marketing. To further sharpen my skills, I focus on building and maintaining full stack web applications with digital marketing strategies implemented to produce growth.</p>
         </motion.div>
 
         {/* CALL TO ACTIONS */}
         <motion.div
-          className="flex mt-5 justify-center md:justify-start"
+          className="flex justify-center md:justify-start md:mt-[50px] mt-[50px]"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -87,14 +112,14 @@ const Landing = ({setSelectedPage}) => {
             rel="noreferrrer"
             target="_blank"
           >
-            <div className="bg-deep-blue hover:text-yellow transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair">
+            <div className="bg-deep-blue hover:text-yellow transition duration-500 w-full h-full flex items-center justify-center px-10">
               Resume
             </div>
           </a>
         </motion.div>
 
         <motion.div
-          className="flex mt-5 justify-center md:justify-start"
+          className="flex mt-5 justify-center md:justify-start gap-[25px] md:gap-[50px]"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -104,7 +129,10 @@ const Landing = ({setSelectedPage}) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <SocialMediaIcons />
+          <AiOutlineFacebook className="mt-10 hover:opacity-50 transition duration-500 h-12 w-12 md:h-12 md:w-12"/>
+          <AiOutlineGoogle className="mt-10 hover:opacity-50 transition duration-500 h-12 w-12 md:h-12 md:w-12"/>
+          <AiOutlineInstagram className="mt-10 hover:opacity-50 transition duration-500 h-12 w-12 md:h-12 md:w-12"/>
+          <AiOutlineLinkedin className="mt-10 hover:opacity-50 transition duration-500 h-12 w-12 md:h-12 md:w-12"/>
         </motion.div>
       </div>
     </section>
