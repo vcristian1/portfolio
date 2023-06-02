@@ -1,23 +1,21 @@
 import React from 'react'
+import { SiTypescript, SiJavascript, SiHtml5, SiCss3 } from 'react-icons/si';
+
 
 const TechnologyIcons = () => {
   return (
-    <div className='flex md:justify-start my-10 gap-7'>
+    <div className='flex md:justify-start my-16 gap-7 overflow'>
         <a className="hover:opacity-50 transition duration-500" href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
-            <img src="../assets/typescript.png" alt="typescript-link" />
-            <p className='font-opensans mt-2'>Typescript</p>
+            <SiTypescript className='h-10 w-10 md:h-10 md:w-10'/>
         </a>
         <a className="hover:opacity-50 transition duration-500" href="https://www.javascript.com/" target="_blank" rel="noreferrer">
-            <img src="../assets/javascript.png" alt="javascript-link" />
-            <p className='font-opensans mt-2'>Javascript</p>
+            <SiJavascript className='h-10 w-10 md:h-10 md:w-10' />
         </a>
         <a className="hover:opacity-50 transition duration-500" href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer">
-            <img src="../assets/html.png" alt="html-link" />
-            <p className='font-opensans mt-2'>HTML5</p>
+            <SiHtml5 className='h-10 w-10 md:h-10 md:w-10'/>
         </a>
         <a className="hover:opacity-50 transition duration-500" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer">
-            <img src="../assets/css.png" alt="css-link" />
-            <p className='font-opensans mt-3'>CSS3</p>
+            <SiCss3 className='h-10 w-10 md:h-10 md:w-10'/>
         </a>
     </div>
   )

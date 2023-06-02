@@ -63,7 +63,7 @@ export const Projects = () => {
                 visible: { opacity: 1, y: 0 },
             }}
             >   
-                <div>
+                <div className="mt-[-50px]">
                     <p className="font-playfair font-semibold text-4xl text-center">
                         <span className="text-yellow">PROJECTS</span> I'VE BUILT
                     </p>
@@ -72,7 +72,7 @@ export const Projects = () => {
                     <LineGradient width="w-1/3" />
                 </div>
                 <motion.div
-                className="flex mt-5 justify-center md:justify-start text-center items-center"
+                className="flex mt-5 justify-center md:justify-start text-center items-center mb-[50px]"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.5 }}
@@ -82,7 +82,7 @@ export const Projects = () => {
                  visible: { opacity: 1, x: 0 },
                 }}
                 >
-                  <TechnologyIcons />
+                  {/* <TechnologyIcons /> */}
                 </motion.div>
         </motion.div>
 

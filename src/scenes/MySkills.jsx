@@ -3,13 +3,16 @@ import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
 import TechnologiesIcons from "../components/TechnologiesIcons";
 import FrameworkIcons from "../components/FrameworkIcons";
+import { TypeAnimation } from 'react-type-animation';
+import { SiAccenture } from "react-icons/si"
+
 
 const MySkills = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
   return (
     <section id="skills" className="pt-10 pb-24">
         {/* Header and Image Here */}
-        <div className="md:flex md:justify-between md:gap-16 mt-32">
+        <div className="md:flex md:justify-between md:gap-16 mt-20 md:mt-32">
             <motion.div
             className="md:w-1/3"
             initial="hidden"
@@ -25,8 +28,26 @@ const MySkills = () => {
                     MY <span className="text-yellow">SKILLS</span>
                 </p>
                 <LineGradient width="w-1/3" />
-                <p className="font-opensans mt-10 mb-10">To keep my skills sharp, I focus on building and maintaining dynamic Full Stack Web Applications.</p>
+                <div className="mb-[50px] md:mb-[50px]" />
+                <TypeAnimation
+                sequence={[
+                    'To keep my skills sharp,', // Types 'One'
+                    1200, // Waits 1s
+                    'I build and maintain full stack web applications using a variety of frameworks and tools.', // Deletes 'One' and types 'Two'
+                    1200,
+                    () => {
+                    console.log('Sequence completed'); // Place optional callbacks anywhere in the array
+                    }
+                ]}
+                wrapper="span"
+                deletionSpeed={70}
+                speed={70}
+                cursor={true}
+                repeat={Infinity}
+                className="font-thin text-[18px] md:text-[20px] lg:text-[24px] text-center"
+                />
             </motion.div>
+            
 
             <div className="mt-16 md:mt-0">
             {isAboveMediumScreens ? (
@@ -119,13 +140,20 @@ const MySkills = () => {
                 <div className="relative h-32">
                     <div className="z-10">
                         <p className="font-playfair font-semibold text-5xl">03</p>
-                        <p className="font-playfair font-semibold text-3xl mt-3">Experience</p>
+                        <p className="font-playfair font-semibold text-3xl mt-3">Work Experience</p>
                     </div>
                     <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
                 </div>
-                <div className="flex mt-4 md:mt-10 lg:mt-18 mb-2">
-                    <p className="text-1xl"><span className="ml-[-10px]"></span> Software Engineer Associate @ <a href="https://www.accenture.com/us-en" target="_blank" rel="noreferrer" className="text-yellow hover:opacity-50 transition duration-500 underline">Accenture</a></p>
-                    <p className="text-1xl"><span className="ml-[-10px]"></span> June 2023 - Present</p>
+                <div className="ml-[2px] mt-14 md:mt-[30px] lg:mt-18 mb-2">
+                    <div className="flex">
+                        <p className="text-1xl lg:text-[18px]"><span className="ml-[-8px]"></span> Software Engineer Associate @ <a href="https://www.accenture.com/us-en" target="_blank" rel="noreferrer" className="text-yellow hover:opacity-50 transition duration-500 underline">Accenture</a></p>
+                        <SiAccenture className="mt-[5px] ml-[7px] md:mt-[6px] lg:ml-[15px]"/>
+                    </div>
+                    <p className="text-sm font-thin"><span className="ml-[-10px]"></span> June 2023 - Present</p>
+                </div>  
+                <div className="ml-[5px] md:mt-[30px] lg:mt-18 mb-2">
+                    <p className="text-1xl lg:text-[18px]"><span className="ml-[-10px]"></span> Principal @ <a href="#" target="_blank" rel="noreferrer" className="text-yellow hover:opacity-50 transition duration-500 underline">Creative Forge</a></p>
+                    <p className="text-sm font-thin"><span className="ml-[-10px]"></span> March 2023 - Present</p>
                 </div>  
             </motion.div>
         </div>

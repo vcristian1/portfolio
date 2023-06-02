@@ -28,7 +28,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
 
         {/* DESKTOP NAV */}
         {isAboveSmallScreens ? (
-          <div className="flex justify-between gap-16 font-opensans text-sm font-semibold">
+          <div className="flex justify-between gap-16 font-opensans text-sm lg:text-[17px] font-semibold">
             <Link
               page="Home"
               selectedPage={selectedPage}

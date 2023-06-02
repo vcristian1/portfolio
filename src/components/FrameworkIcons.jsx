@@ -1,23 +1,25 @@
-import React from 'react'
+import React from 'react';
+import { SiNodedotjs, SiExpress, SiMongodb, SiTailwindcss } from 'react-icons/si';
+import { TbBrandNextjs } from 'react-icons/tb'
+
 
 const FrameworkIcons = () => {
   return (
-    <div className='flex md:justify-start my-10 gap-7 overflow'>
-        <a className="hover:opacity-50 transition duration-500" href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
-            <img src="../assets/react.png" alt="react-link" />
-            <p className='font-opensans mt-2'>React.js</p>
+    <div className='flex md:justify-start my-16 gap-7 overflow'>
+        <a className="hover:opacity-50 transition duration-500" href="https://nextjs.org/" target="_blank" rel="noreferrer">
+            <TbBrandNextjs className='h-10 w-10 md:h-10 md:w-10'/>
         </a>
         <a className="hover:opacity-50 transition duration-500" href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
-            <img src="../assets/node.png" alt="node-link" />
-            <p className='font-opensans mt-2'>Node.js</p>
+            <SiNodedotjs className='h-10 w-10 md:h-10 md:w-10' />
         </a>
         <a className="hover:opacity-50 transition duration-500" href="https://www.javascript.com/" target="_blank" rel="noreferrer">
-            <img src="../assets/express.png" alt="express-link" />
-            <p className='font-opensans mt-2'>Express.js</p>
+            <SiExpress className='h-10 w-10 md:h-10 md:w-10'/>
         </a>
         <a className="hover:opacity-50 transition duration-500" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer">
-            <img src="../assets/mongodb.png" alt="mongo-link" />
-            <p className='font-opensans mt-3'>MongoDB</p>
+            <SiMongodb className='h-10 w-10 md:h-10 md:w-10'/>
+        </a>
+        <a className="hover:opacity-50 transition duration-500" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer">
+            <SiTailwindcss className='h-10 w-10 md:h-10 md:w-10'/>
         </a>
     </div>
   )

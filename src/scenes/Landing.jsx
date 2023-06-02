@@ -63,12 +63,12 @@ const Landing = ({setSelectedPage}) => {
           <div className="">
             <TypeAnimation
               sequence={[
-                'Hello!', // Types 'One'
+                'Hello,', // Types 'One'
                 1000, // Waits 1s
-                'I am a Javascript/Typescript Developer based out of Chicago, IL.', // Deletes 'One' and types 'Two'
-                500,
-                'I build and maintain full stack web applications for clients.',
-                500,
+                'Im a Javascript/Typescript developer based in Chicago, IL.', // Deletes 'One' and types 'Two'
+                650,
+                'Currently, Im focused on programming and maintaining software applications at Accenture.',
+                650,
                 'Nice to meet you!',
                 1000,
                 () => {
@@ -76,11 +76,11 @@ const Landing = ({setSelectedPage}) => {
                 }
               ]}
               wrapper="span"
-              deletionSpeed={75}
-              speed={60}
+              deletionSpeed={60}
+              speed={70}
               cursor={true}
               repeat={Infinity}
-              className="font-opensans text-[18px] md:text-[20px] lg:text-[22px] text-center"
+              className="font-thin text-[18px] md:text-[20px] lg:text-[24px] text-center"
             />
           </div>
 
@@ -100,7 +100,7 @@ const Landing = ({setSelectedPage}) => {
         >
           <AnchorLink
             className="bg-gradient-rainbow text-deep-blue rounded-sm py-3 px-7 font-semibold
-              hover:bg-blue hover:text-white transition duration-500"
+              hover:bg-blue hover:text-white transition duration-500 lg:text-[18px]"
             onClick={() => setSelectedPage("contact")}
             href="#contact"
           >
@@ -112,7 +112,7 @@ const Landing = ({setSelectedPage}) => {
             rel="noreferrrer"
             target="_blank"
           >
-            <div className="bg-deep-blue hover:text-yellow transition duration-500 w-full h-full flex items-center justify-center px-10">
+            <div className="bg-deep-blue hover:text-yellow transition duration-500 w-full h-full flex items-center justify-center px-10 lg:text-[18px]">
               Resume
             </div>
           </a>
