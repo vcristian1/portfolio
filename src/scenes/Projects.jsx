@@ -42,7 +42,7 @@ const Project = ({ title, description, link, repo }) => {
             </a>
           </div>
         </div>
-        <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+        <img src={`../assets/${projectTitle}.svg`} alt={projectTitle} />
       </motion.div>
     );
   };
@@ -101,13 +101,15 @@ export const Projects = () => {
                 >
                     BEAUTIFUL USER INTERFACES
                 </div>
-                <Project repo="https://github.com/vcristian1/" description="A Next.js Web App for Peace Pelvic Health physical therapy built using Typescript." link="https://peace-pelvic-health.vercel.app" title="Peace" />
-                <Project repo="https://github.com/vcristian1/Nextflix-React" description="Netflix clone built using Typescript and Next.js" link="https://moviesjs.vercel.app/login" title="Nextflix" />
+                <Project repo="https://github.com/vcristian1/" description="A Next.js Web App for Peace Pelvic Health physical therapy built using Next.js" link="https://peace-pelvic-health.vercel.app" title="Peace" />
+                <Project repo="https://highvinehomes.com/active-adult/#/" description="A Wordpress Landing Page for HighVine Homes' 55+ Communities" link="https://highvinehomes.com/active-adult/#/" title="HighVine" />
                 <Project repo="https://github.com/vcristian1/" description="A Next.js Web App for Colibri Construction Services built using Typescript." link="https://colibri.construction" title="Colibri" />
+                <Project repo="https://github.com/vcristian1/Nextflix-React" description="Netflix clone built using Typescript and Next.js" link="https://not-the-real-netflix.vercel.app/login" title="Nextflix" />
+
                 <Project repo="https://github.com/vcristian1/codebuddy" description="A ChatGPT AI Web App built using the OpenAI API." link="https://codebuddy-one.vercel.app/" title="Codebuddy" />
                 {/* ROW 2 HERE */}
                 <Project repo="https://github.com/vcristian1/ibank" description="A React.js and Vite.js Web App for a Credit Card company" link="https://ibank-omega.vercel.app/" title="Ibank" />
-                <Project repo="https://highvinehomes.com/active-adult/#/" description="A Wordpress Landing Page for HighVine Homes' 55+ Communities" link="https://highvinehomes.com/active-adult/#/" title="HighVine" />
+
                 <Project repo="https://github.com/vcristian1/ReactFit" description="A React.js and Vite.js Web App for a fitness gym built using Typescript." link="https://react-fit-nu.vercel.app/" title="Evogym" />
                 {/* ROW 2 HERE */}
                 <Project repo="https://github.com/vcristian1/WorldView" description="History Web App built using React-Three-Fiber" link="https://my-world-view.herokuapp.com/" title="Worldview" />

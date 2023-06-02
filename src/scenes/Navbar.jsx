@@ -1,7 +1,7 @@
 import { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../hooks/useMediaQuery";
-
+import { BiMenuAltRight } from "react-icons/bi"
 const Link = ({ page, selectedPage, setSelectedPage }) => {
   const lowerCasePage = page.toLowerCase();
   return (
@@ -57,10 +57,10 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
           </div>
         ) : (
           <button 
-           className="rounded-full p-2 bg-yellow"
+           className="rounded-full p-2"
            onClick={() => {setIsMenuToggled(!isMenuToggled)}}
            >
-            <img src="../assets/menu-icon.svg" alt="menu-icon" />
+            <BiMenuAltRight className="h-8 w-8 md:h-10 md:w-10" />
           </button>
         )}
 

@@ -26,7 +26,7 @@ const Landing = ({setSelectedPage}) => {
             <img
               alt="profile"
               className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
-              src="assets/profile-image3.jpeg"
+              src="assets/profile-image3.svg"
             />
           </div>
         ) : (
@@ -55,7 +55,7 @@ const Landing = ({setSelectedPage}) => {
           <p className="md:mb-[50px] mb-[50px] text-6xl font-playfair z-10 text-center md:text-start lg:text-start">
             Cristian {""}
             <span
-              className="xs:relative xs:text-yellow xs:font-semibold z-20 md:z-20 "
+              className="xs:relative text-yellow xs:font-semibold z-20 md:z-20 "
             >
               Vargas
             </span>
@@ -65,19 +65,19 @@ const Landing = ({setSelectedPage}) => {
               sequence={[
                 'Hello,', // Types 'One'
                 1000, // Waits 1s
-                'Im a Javascript/Typescript developer based in Chicago, IL.', // Deletes 'One' and types 'Two'
-                650,
-                'Currently, Im focused on programming and maintaining software applications at Accenture.',
-                650,
-                'Nice to meet you!',
-                1000,
+                'Hello, Im a Javascript/Typescript developer based in Chicago, IL.', // Deletes 'One' and types 'Two'
+                1200,
+                'Hello, Im a Javascript/Typescript developer based in Chicago, IL. Currently, Im focused on programming and maintaining software applications at Accenture.',
+                1200,
+                'Hello, Im a Javascript/Typescript developer based in Chicago, IL. Currently, Im focused on programming and maintaining software applications at Accenture. Nice to meet you!',
+                1200,
                 () => {
                   console.log('Sequence completed'); // Place optional callbacks anywhere in the array
                 }
               ]}
               wrapper="span"
-              deletionSpeed={60}
-              speed={70}
+              deletionSpeed={95}
+              speed={75}
               cursor={true}
               repeat={Infinity}
               className="font-thin text-[18px] md:text-[20px] lg:text-[24px] text-center"
