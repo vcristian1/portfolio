@@ -33,7 +33,6 @@ module.exports = {
         brush1: "url('./assets/brush1.png')",
         brush2: "url('./assets/brush2.png')",
         person1: "url('./assets/person-1.png')",
-        person2: "url('./assets/person-2.png')",
         person3: "url('./assets/person-3.png')",
         person4: "url(./assets/NataliaAvelarHeadshot.svg)",
         person5: "url(./assets/CarlosVargasHeadshot.svg)"
