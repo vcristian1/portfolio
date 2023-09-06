@@ -1,6 +1,5 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
-import TechnologyIcons from "../components/TechnologyIcons";
 
 // Created the container object to use in the variants attribute of the motion.div containing the 
 // projects so the animations will happen for each children one by one with a 0.2 gap in between 
@@ -101,7 +100,7 @@ export const Projects = () => {
                 >
                     BEAUTIFUL USER INTERFACES
                 </div>
-                <Project repo="https://github.com/vcristian1/" description="A Next.js Web App for Peace Pelvic Health physical therapy built using Next.js" link="https://peace-pelvic-health.vercel.app" title="Peace" />
+                <Project repo="https://github.com/vcristian1/" description="A Next.js Web App for Peace Pelvic Health physical therapy built using Next.js" link="https://peacepelvichealth.org" title="Peace" />
                 <Project repo="https://highvinehomes.com/active-adult/#/" description="A Wordpress Landing Page for HighVine Homes' 55+ Communities" link="https://highvinehomes.com/active-adult/#/" title="HighVine" />
                 <Project repo="https://github.com/vcristian1/" description="A Next.js Web App for Colibri Construction Services built using Typescript." link="https://colibri.construction" title="Colibri" />
                 <Project repo="https://github.com/vcristian1/Nextflix-React" description="Netflix clone built using Typescript and Next.js" link="https://not-the-real-netflix.vercel.app/login" title="Nextflix" />
