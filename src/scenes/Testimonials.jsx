@@ -23,22 +23,8 @@ export const Testimonials = () => {
         </p>
         <LineGradient width="mx-auto w-2/5" />
         <p className="font-thin mt-10 text-center">
-        <TypeAnimation
-          sequence={[
-              'See what others are saying about my work.', // Types 'One'
-              1300, // Waits 1s
-              '',
-              () => {
-              console.log('Sequence completed'); // Place optional callbacks anywhere in the array
-              }
-          ]}
-          wrapper="span"
-          deletionSpeed={90}
-          speed={70}
-          cursor={true}
-          repeat={Infinity}
-          className="font-thin text-[18px] md:text-[20px] lg:text-[24px] text-center"
-          />
+        <p
+          className="font-thin text-[18px] md:text-[20px] lg:text-[24px] text-center">See what others are saying about my work.</p>
         </p>
       </motion.div>
 

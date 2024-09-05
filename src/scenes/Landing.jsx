@@ -67,9 +67,9 @@ const Landing = ({setSelectedPage}) => {
                 1000, // Waits 1s
                 'Hello, Im a Javascript/Typescript developer based in Chicago, IL.', // Deletes 'One' and types 'Two'
                 1200,
-                'Hello, Im a Javascript/Typescript developer based in Chicago, IL. Currently, Im focused on programming and maintaining software applications at Accenture.',
+                'Hello, Im a Javascript/Typescript developer based in Chicago, IL. Currently, Im focused on building and maintaining software applications at Accenture.',
                 1200,
-                'Hello, Im a Javascript/Typescript developer based in Chicago, IL. Currently, Im focused on programming and maintaining software applications at Accenture. Nice to meet you!',
+                '',
                 1200,
                 () => {
                   console.log('Sequence completed'); // Place optional callbacks anywhere in the array

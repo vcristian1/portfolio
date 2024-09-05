@@ -29,23 +29,9 @@ const MySkills = () => {
                 </p>
                 <LineGradient width="w-1/3" />
                 <div className="mb-[50px] md:mb-[50px]" />
-                <TypeAnimation
-                sequence={[
-                    'To keep my skills sharp,', // Types 'One'
-                    1200, // Waits 1s
-                    'To keep my skills sharp, I build and maintain full stack web applications using a variety of frameworks and tools.', // Deletes 'One' and types 'Two'
-                    1200,
-                    () => {
-                    console.log('Sequence completed'); // Place optional callbacks anywhere in the array
-                    }
-                ]}
-                wrapper="span"
-                deletionSpeed={95}
-                speed={75}
-                cursor={true}
-                repeat={Infinity}
-                className="font-thin text-[18px] md:text-[20px] lg:text-[24px] text-center"
-                />
+                <p
+                className="font-thin text-[18px] md:text-[20px] lg:text-[24px] text-left">To keep my skills sharp, I build and maintain full stack web applications using a variety of frameworks and tools.</p>
+                
             </motion.div>
             
 
@@ -146,7 +132,7 @@ const MySkills = () => {
                 </div>
                 <div className="ml-[2px] mt-14 md:mt-[30px] lg:mt-18 mb-2">
                     <div className="flex">
-                        <p className="text-1xl lg:text-[18px]"><span className="ml-[-8px]"></span> Software Engineer Associate @ <a href="https://www.accenture.com/us-en" target="_blank" rel="noreferrer" className="hover:opacity-50 transition duration-500">Accenture</a></p>
+                        <p className="text-1xl lg:text-[18px]"><span className="ml-[-8px]"></span> Software Engineering Analyst @ <a href="https://www.accenture.com/us-en" target="_blank" rel="noreferrer" className="hover:opacity-50 transition duration-500">Accenture</a></p>
                         <SiAccenture className="mt-[5px] ml-[7px] md:mt-[6px] lg:ml-[15px] text-[#9505e3]"/>
                     </div>
                     <p className="text-sm font-thin"><span className="ml-[-10px]"></span> June 2023 - Present</p>

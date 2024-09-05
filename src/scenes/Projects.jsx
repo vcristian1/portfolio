@@ -111,9 +111,6 @@ export const Projects = () => {
 
                 <Project repo="https://github.com/vcristian1/ReactFit" description="A React.js and Vite.js Web App for a fitness gym built using Typescript." link="https://react-fit-nu.vercel.app/" title="Evogym" />
                 {/* ROW 2 HERE */}
-                <Project repo="https://github.com/vcristian1/WorldView" description="History Web App built using React-Three-Fiber" link="https://my-world-view.herokuapp.com/" title="Worldview" />
-                <Project repo="https://github.com/vcristian1/yelpcamp" description="User Review Web App for Campgrounds" link="https://hidden-tor-07938.herokuapp.com/" title="Yelpcamp" />
-                <Project repo="https://github.com/vcristian1/get-weather-api" description="Weather App built using Javascript & Open Weather API" link="https://vcristian1.github.io/get-weather-api/" title="Weather" />
                 <div
                 className="flex justify-center text-center items-center p-10 bg-yellow max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
                 >
