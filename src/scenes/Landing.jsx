@@ -61,27 +61,10 @@ const Landing = ({setSelectedPage}) => {
             </span>
           </p>
           <div className="">
-            <TypeAnimation
-              sequence={[
-                'Hello,', // Types 'One'
-                1000, // Waits 1s
-                'Hello, Im a Javascript/Typescript developer based in Chicago, IL.', // Deletes 'One' and types 'Two'
-                1200,
-                'Hello, Im a Javascript/Typescript developer based in Chicago, IL. Currently, Im focused on building and maintaining software applications at Accenture.',
-                1200,
-                '',
-                1200,
-                () => {
-                  console.log('Sequence completed'); // Place optional callbacks anywhere in the array
-                }
-              ]}
-              wrapper="span"
-              deletionSpeed={95}
-              speed={75}
-              cursor={true}
-              repeat={Infinity}
-              className="font-thin text-[18px] md:text-[20px] lg:text-[24px] text-center"
-            />
+            <p
+              className="font-thin text-[18px] md:text-[20px] lg:text-[24px] xs:text-center md:text-left">
+              Hello, Im a Javascript/Typescript developer based in Chicago, IL. Currently, Im focused on building and maintaining software applications at Accenture.
+              </p>
           </div>
 
         </motion.div>
