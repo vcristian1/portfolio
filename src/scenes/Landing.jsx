@@ -63,7 +63,7 @@ const Landing = ({setSelectedPage}) => {
           <div className="">
             <p
               className="font-thin text-[18px] md:text-[20px] lg:text-[24px] xs:text-center md:text-left">
-              Hi, I’m a Business Analyst and JavaScript/TypeScript developer based in Chicago, IL. I specialize in building and maintaining software applications, bridging the gap between business needs and technical solutions at Accenture.
+              Hi, I’m a Business Analyst and JavaScript/TypeScript developer based in Chicago, IL. I specialize in building and maintaining software applications, bridging the gap between business needs and technical solutions.
               </p>
           </div>
 
