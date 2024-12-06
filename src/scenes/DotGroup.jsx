@@ -1,8 +1,8 @@
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const DotGroup = ({ page, selectedPage, setSelectedPage }) => {
-  const selectedStyles = `relative bg-yellow before:absolute before:w-6 before:h-6 before:rounded-full
-  before:border-2 before:border-yellow before:left-[-50%] before:top-[-50%]`;
+  const selectedStyles = `relative bg-gradient-rainbow before:absolute before:w-6 before:h-6 before:rounded-full
+  before:border-2 before:border-[#2cbce9] before:left-[-50%] before:top-[-50%]`;
 
   return (
     // Gives Dotgroup its particular position
