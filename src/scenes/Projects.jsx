@@ -100,15 +100,15 @@ export const Projects = () => {
                 >
                     BEAUTIFUL USER INTERFACES
                 </div>
-                <Project repo="https://github.com/vcristian1/" description="A Next.js Web App for Peace Pelvic Health physical therapy built using Next.js" link="https://peacepelvichealth.org" title="Peace" />
+                <Project repo="https://github.com/vcristian1/" description="A Next.js Web App for Peace Pelvic Health PLLC" link="https://peacepelvichealth.org" title="Peace" />
                 <Project repo="https://highvinehomes.com/active-adult/#/" description="A Wordpress Landing Page for HighVine Homes' 55+ Communities" link="https://highvinehomes.com/active-adult/#/" title="HighVine" />
-                <Project repo="https://github.com/vcristian1/" description="A Next.js Web App for Colibri Construction Services built using Typescript." link="https://colibri.construction" title="Colibri" />
-                <Project repo="https://github.com/vcristian1/Nextflix-React" description="Netflix clone built using Typescript and Next.js" link="https://not-the-real-netflix.vercel.app/login" title="Nextflix" />
+                <Project repo="https://github.com/vcristian1/" description="A Next.js Web App for Colibri Construction Services" link="https://colibri.construction" title="Colibri" />
+                <Project repo="https://github.com/vcristian1/Nextflix-React" description="A Next.js Netflix Clone" link="https://not-the-real-netflix.vercel.app/login" title="Nextflix" />
 
                 {/* ROW 2 HERE */}
-                <Project repo="https://github.com/vcristian1/ibank" description="A React.js and Vite.js Web App for a Credit Card company" link="https://ibank-omega.vercel.app/" title="Ibank" />
+                <Project repo="https://github.com/vcristian1/ibank" description="A Vite.js Web App for the Banking Industry" link="https://ibank-omega.vercel.app/" title="Ibank" />
 
-                <Project repo="https://github.com/vcristian1/ReactFit" description="A React.js and Vite.js Web App for a fitness gym built using Typescript." link="https://react-fit-nu.vercel.app/" title="Evogym" />
+                <Project repo="https://github.com/vcristian1/ReactFit" description="A Vite.js Web App for the Gym Industry" link="https://react-fit-nu.vercel.app/" title="Evogym" />
                 {/* ROW 2 HERE */}
                 <div
                 className="flex justify-center text-center items-center p-10 bg-yellow max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
