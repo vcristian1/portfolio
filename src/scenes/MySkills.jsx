@@ -132,13 +132,13 @@ const MySkills = () => {
                 </div>
                 <div className="ml-[2px] mt-14 md:mt-[30px] lg:mt-18 mb-2">
                     <div className="flex">
-                        <p className="text-1xl lg:text-[18px]"><span className="ml-[-8px]"></span> Software Engineering Analyst @ <a href="https://www.accenture.com/us-en" target="_blank" rel="noreferrer" className="hover:opacity-50 transition duration-500">Accenture</a></p>
+                        <p className="text-1xl lg:text-[18px]"><span className="ml-[-8px]"></span>Custom Software Engineering Analyst @ <a href="https://www.accenture.com/us-en" target="_blank" rel="noreferrer" className="hover:opacity-50 transition duration-500">Accenture</a></p>
                         <SiAccenture className="mt-[5px] ml-[7px] md:mt-[6px] lg:ml-[15px] text-[#9505e3]"/>
                     </div>
                     <p className="text-sm font-thin"><span className="ml-[-10px]"></span> June 2023 - Present</p>
                 </div>  
                 <div className="ml-[5px] md:mt-[30px] lg:mt-18 mb-2">
-                    <p className="text-1xl lg:text-[18px]"><span className="ml-[-10px]"></span> Principal @ <a href="#" target="_blank" rel="noreferrer" className="hover:opacity-50 transition duration-500">Creative Forge</a></p>
+                    <p className="text-1xl lg:text-[18px]"><span className="ml-[-10px]"></span> Self Employed Front End Engineer</p>
                     <p className="text-sm font-thin"><span className="ml-[-10px]"></span> March 2023 - Present</p>
                 </div>  
             </motion.div>
