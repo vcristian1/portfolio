@@ -102,7 +102,7 @@ export const Projects = () => {
                 </div>
                 <Project repo="https://github.com/vcristian1/" description="A Next.js Web App for Peace Pelvic Health PLLC" link="https://peacepelvichealth.org" title="Peace" />
                 <Project repo="https://highvinehomes.com/active-adult/#/" description="A Wordpress Landing Page for HighVine Homes' 55+ Communities" link="https://highvinehomes.com/active-adult/#/" title="HighVine" />
-                <Project repo="https://github.com/vcristian1/" description="A Next.js Web App for Colibri Construction Services" link="https://colibri.construction" title="Colibri" />
+                {/* <Project repo="https://github.com/vcristian1/" description="A Next.js Web App for Colibri Construction Services" link="https://colibri.construction" title="Colibri" /> */}
                 <Project repo="https://github.com/vcristian1/ourwedding" description="A Vite.js Web App created for my Wedding" link="https://jackieandcristiangetmarried.com" title="Wedding" />
                 <Project repo="https://github.com/vcristian1/Nextflix-React" description="A Next.js Netflix Clone" link="https://not-the-real-netflix.vercel.app/login" title="Nextflix" />
 
