@@ -106,7 +106,7 @@ export const Projects = () => {
                 <Project repo="https://github.com/vcristian1/Nextflix-React" description="A Next.js Netflix Clone" link="https://not-the-real-netflix.vercel.app/login" title="Nextflix" />
 
                 {/* ROW 2 HERE */}
-                <Project repo="https://github.com/vcristian1/ibank" description="A Vite.js Web App for the Banking Industry" link="https://ibank-omega.vercel.app/" title="Ibank" />
+                <Project repo="https://github.com/vcristian1/ibank" description="A Vite.js Web App for the Banking Industry" link="https://ibank-omega.vercel.app/" title="Hoo Bank" />
 
                 <Project repo="https://github.com/vcristian1/ReactFit" description="A Vite.js Web App for the Gym Industry" link="https://react-fit-nu.vercel.app/" title="Evogym" />
                 {/* ROW 2 HERE */}
