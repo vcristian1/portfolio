@@ -30,28 +30,36 @@ const MySkills = () => {
                 <LineGradient width="w-1/3" />
                 <div className="mb-[50px] md:mb-[50px]" />
                 <p
-                className="font-thin text-[18px] md:text-[20px] lg:text-[24px] text-left">To keep my skills sharp, I build and maintain full stack web applications using a variety of frameworks and tools.</p>
+                className="font-thin text-[18px] md:text-[20px] lg:text-[24px] text-left">To keep my technical skills sharp, I build and maintain full stack web applications using a variety of frameworks and tools.</p>
                 
             </motion.div>
             
 
             <div className="mt-16 md:mt-0">
             {isAboveMediumScreens ? (
-            <div
+            <motion.div
                 className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10 
                 before:w-full before:max-w-[400px] before:h-full before:border-2 before:border-blue before:z-[-1]"
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                transition={{ duration: 0.5 }}
+                variants={{
+                hidden: { opacity: 0, x: -50 },
+                visible: { opacity: 1, x: 0 },
+                }}
              >
                 <img
                 alt="skills"
                 className="z-10"
-                src="assets/skills-image.png"
+                src="assets/skills-image1.svg"
                 />
-            </div>
+            </motion.div>
             ) : (
             <img
                 alt="skills"
                 className="z-10"
-                src="assets/skills-image.png"
+                src="assets/skills-image1.svg"
             />
             )}
             </div>
@@ -132,7 +140,7 @@ const MySkills = () => {
                 </div>
                 <div className="mt-14 md:mt-[30px] lg:mt-18 mb-2">
                     <div className="flex">
-                        <p className="text-1xl lg:text-[18px]"><span className="ml-[-8px]"></span>Custom Software Engineering Analyst @ <a href="https://www.accenture.com/us-en" target="_blank" rel="noreferrer" className="hover:opacity-75 underline transition duration-500 hover:text-[#6a00f4]">Accenture</a></p>
+                        <p className="text-1xl lg:text-[18px]"><span className="ml-[-8px]"></span>Custom Software Engineering Analyst @ <a href="https://www.accenture.com/us-en" target="_blank" rel="noreferrer" className="hover:opacity-75 underline transition duration-500 hover:text-purple">Accenture</a></p>
                     </div>
                     <p className="text-sm font-thin"><span className=""></span> June 2023 - Present</p>
                 </div>  

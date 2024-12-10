@@ -89,9 +89,9 @@ export const Projects = () => {
         <div className="flex justify-center">
             <motion.div
                 className="xs:grid-cols-1 sm:grid sm:grid-cols-3"
-                initial="visible"
+                initial="hidden"
                 whileInView="visible"
-                viewport={{ once: true, amount: 0.5 }}
+                viewport={{ once: true, amount: 0.3 }}
                 variants={container}
             >
                 {/* ROW 1 HERE */}

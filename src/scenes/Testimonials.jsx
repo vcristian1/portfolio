@@ -44,7 +44,7 @@ export const Testimonials = () => {
         <div className="md:mb-[-25px]">
           <p className="mb-[-20px] font-opensans text-6xl">“</p>
           <p className="font-opensans text-center xs:text-[17px] sm:text-[20px] md:text-[18px] lg:text-xl">
-          I recently had the pleasure of working with Cristian on a website development project for my physical therapy practice. His skills and knowledge in this area are outstanding.</p>
+          I recently worked with Cristian on a website development project for my physical therapy practice. His skills and knowledge in this area are outstanding.</p>
           <p className="text-[#fdcc49] md:mt-[10px] font-opensans text-center xs:text-[17px] sm:text-[20px] md:text-[16px] lg:text-xl">Natalia Avelar, 2023</p>
         </div>
         </motion.div>
@@ -85,7 +85,7 @@ export const Testimonials = () => {
         <div className="md:mb-[-25px]">
           <p className="mb-[-20px] font-opensans text-6xl">“</p>
           <p className="font-opensans text-center xs:text-[17px] sm:text-[20px] md:text-[18px] lg:text-xl">
-          I would rate Cristian very highly, not only for his knowledge, skills, and perseverance but also for his ability to remain calm and methodical under severe pressure.</p>
+          I would rate Cristian very highly, not only for his knowledge, skills, and perseverance but also for his ability to work under severe pressure.</p>
           <p className="text-[#fdcc49] md:mt-[10px] font-opensans text-center xs:text-[17px] sm:text-[20px] md:text-[16px] lg:text-xl">Ankit Patel, 2022</p>
         </div>
         </motion.div>
