@@ -20,7 +20,7 @@ const Footer = () => {
             Cristian <span className="text-yellow">Vargas</span>
           </p>
           <p className="font-playfair text-md text-white">
-            ©2025 <span className="text-yellow">Vargas</span> All Rights Reserved.
+            ©2026 <span className="text-yellow">Vargas</span> All Rights Reserved.
           </p>
         </div>
       </div>
