@@ -1,6 +1,5 @@
-import SocialMediaIcons from "../components/SocialMediaIcons";
 import LineGradient from "../components/LineGradient";
-import { AiOutlineFacebook, AiOutlineGithub, AiOutlineInstagram, AiOutlineLinkedin  } from 'react-icons/ai';
+import { AiOutlineGithub, AiOutlineLinkedin  } from 'react-icons/ai';
 
 
 const Footer = () => {

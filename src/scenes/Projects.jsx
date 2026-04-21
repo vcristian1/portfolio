@@ -32,11 +32,11 @@ const Project = ({ title, description, link, repo }) => {
           </p>
           <div className="flex justify-center text-center items-center">
             <a className="bg-gradient-rainbow text-deep-blue rounded-sm py-2 px-5 font-semibold
-                hover:bg-blue hover:text-white transition duration-500" target="_blank" rel="no-referrer" href={link} alt={title}>
+                hover:bg-blue hover:text-white transition duration-500" target="_blank" rel="noreferrer" href={link} alt={title}>
               Demo
             </a>
             <a className="bg-deep-blue text-white rounded-sm py-2 px-5 font-semibold
-                hover:bg-deep-blue hover:text-yellow transition duration-500" target="_blank" rel="no-referrer" href={repo} alt={title}>
+                hover:bg-deep-blue hover:text-yellow transition duration-500" target="_blank" rel="noreferrer" href={repo} alt={title}>
               Repo
             </a>
           </div>

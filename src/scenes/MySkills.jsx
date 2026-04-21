@@ -3,9 +3,6 @@ import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
 import TechnologiesIcons from "../components/TechnologiesIcons";
 import FrameworkIcons from "../components/FrameworkIcons";
-import { TypeAnimation } from 'react-type-animation';
-import { SiAccenture } from "react-icons/si"
-
 
 const MySkills = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");

@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import LineGradient from "../components/LineGradient";
-import { TypeAnimation } from "react-type-animation";
 import React from "react";
 
 export const Testimonials = () => {

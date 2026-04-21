@@ -1,9 +1,7 @@
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import SocialMediaIcons from "../components/SocialMediaIcons";
-import { AiOutlineFacebook, AiOutlineGithub, AiOutlineInstagram, AiOutlineLinkedin  } from 'react-icons/ai';
-import { TypeAnimation } from 'react-type-animation';
+import { AiOutlineGithub, AiOutlineLinkedin  } from 'react-icons/ai';
 
 
 const Landing = ({setSelectedPage}) => {
@@ -100,7 +98,7 @@ const Landing = ({setSelectedPage}) => {
           <a 
             className="rounded-r-sm bg-blue py-0.5 pr-0.5"
             href="https://drive.google.com/file/d/18PI8vdR-4kdyyOPA1O8LrIzvhpUW1Yt2/view?usp=sharing"
-            rel="noreferrrer"
+            rel="noreferrer"
             target="_blank"
           >
             <div className="bg-deep-blue hover:text-yellow transition duration-500 w-full h-full flex items-center justify-center px-10 lg:text-[18px]">
